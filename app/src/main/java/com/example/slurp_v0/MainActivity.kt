@@ -4,17 +4,20 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.compose.rememberNavController
 import com.example.slurp_v0.ui.auth.AuthScreen
+import com.example.slurp_v0.ui.components.BottomNavBar
+import com.example.slurp_v0.ui.navigation.NavGraph
 import com.example.slurp_v0.ui.theme.SLURP_v0Theme
 
 class MainActivity : ComponentActivity() {
@@ -33,9 +36,7 @@ class MainActivity : ComponentActivity() {
                             onAuthSuccess = { isAuthenticated = true }
                         )
                     } else {
-                        // TODO: Add your main app content here
-                        // For now, we'll just show a placeholder
-                        Greeting(name = "Authenticated User")
+                        MainScreen()
                     }
                 }
             }
@@ -44,17 +45,15 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    SLURP_v0Theme {
-        Greeting("Android")
+fun MainScreen() {
+    val navController = rememberNavController()
+    
+    Scaffold(
+        bottomBar = { BottomNavBar(navController = navController) }
+    ) { paddingValues ->
+        NavGraph(
+            navController = navController,
+            modifier = Modifier.padding(paddingValues)
+        )
     }
 }
