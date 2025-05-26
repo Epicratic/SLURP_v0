@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.slurp_v0.data.RatingRepository
 import com.example.slurp_v0.data.model.Rating
-import com.example.slurp_v0.data.constants.SectorConstants
+import com.example.slurp_v0.data.model.SectorConstants
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -51,13 +51,12 @@ class DashboardViewModel : ViewModel() {
                 // Get sectors in the specified order
                 val orderedSectors = listOf(
                     "Governance",
-                    "Security",
-                    "Healthcare",
-                    "Education",
-                    "Food",
-                    "Housing",
-                    "Transport",
-                    "Communication"
+                    "Security-Defense",
+                    "Health-Hygiene",
+                    "Instruction-Culture",
+                    "Food-Finance",
+                    "Housing-Tourism",
+                    "Transport-Telco",
                 )
                 val sectorAverages = repository.getAverageByDimension("macroSector")
                     .toList()

@@ -5,7 +5,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.slurp_v0.data.model.Rating
 import com.example.slurp_v0.data.repository.RatingRepository
-import com.example.slurp_v0.data.constants.SectorConstants
+import com.example.slurp_v0.data.model.SectorConstants
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update

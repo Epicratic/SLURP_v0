@@ -24,7 +24,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.slurp_v0.R
 import com.example.slurp_v0.data.model.Rating
-import com.example.slurp_v0.data.constants.SectorConstants
+import com.example.slurp_v0.data.model.SectorConstants
 import com.example.slurp_v0.ui.components.SelectorField
 import java.text.SimpleDateFormat
 import java.util.*
@@ -199,7 +199,7 @@ fun FiltersSection(
             SelectorField(
                 label = "Macro Sector",
                 value = state.selectedMacroSector,
-                options = state.availableMesoSectors,
+                options = state.availableMacroSectors,
                 onValueChange = onMacroSectorSelected
             )
 
@@ -215,7 +215,7 @@ fun FiltersSection(
             SelectorField(
                 label = "Indicator Category",
                 value = state.selectedIndicatorCategory,
-                options = state.availableIndicatorTypes,
+                options = state.availableIndicatorCategories,
                 onValueChange = onIndicatorCategorySelected
             )
 

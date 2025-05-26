@@ -1,0 +1,2325 @@
+Structure du dossier
+Le num‚ro de s‚rie du volume est 24AA-C2C5
+C:.
+³   .gitignore
+³   build.gradle
+³   build.gradle.kts
+³   gradle.properties
+³   gradlew
+³   gradlew.bat
+³   local.properties
+³   settings.gradle
+³   settings.gradle.kts
+³   structure.txt
+³   tunisia_map.svg
+³   workspace.code-workspace
+³   
+ÃÄÄÄ.gradle
+³   ³   config.properties
+³   ³   file-system.probe
+³   ³   
+³   ÃÄÄÄ8.11.1
+³   ³   ³   gc.properties
+³   ³   ³   
+³   ³   ÃÄÄÄchecksums
+³   ³   ³       checksums.lock
+³   ³   ³       md5-checksums.bin
+³   ³   ³       sha1-checksums.bin
+³   ³   ³       
+³   ³   ÃÄÄÄexecutionHistory
+³   ³   ³       executionHistory.bin
+³   ³   ³       executionHistory.lock
+³   ³   ³       
+³   ³   ÃÄÄÄexpanded
+³   ³   ÃÄÄÄfileChanges
+³   ³   ³       last-build.bin
+³   ³   ³       
+³   ³   ÃÄÄÄfileHashes
+³   ³   ³       fileHashes.bin
+³   ³   ³       fileHashes.lock
+³   ³   ³       resourceHashesCache.bin
+³   ³   ³       
+³   ³   ÀÄÄÄvcsMetadata
+³   ÃÄÄÄbuildOutputCleanup
+³   ³       buildOutputCleanup.lock
+³   ³       cache.properties
+³   ³       outputFiles.bin
+³   ³       
+³   ÃÄÄÄkotlin
+³   ³   ÃÄÄÄerrors
+³   ³   ÀÄÄÄsessions
+³   ÀÄÄÄvcs-1
+³           gc.properties
+³           
+ÃÄÄÄ.idea
+³   ³   .gitignore
+³   ³   AndroidProjectSystem.xml
+³   ³   compiler.xml
+³   ³   deploymentTargetSelector.xml
+³   ³   gradle.xml
+³   ³   migrations.xml
+³   ³   misc.xml
+³   ³   runConfigurations.xml
+³   ³   vcs.xml
+³   ³   workspace.xml
+³   ³   
+³   ÀÄÄÄcaches
+³           deviceStreaming.xml
+³           
+ÃÄÄÄ.kotlin
+³   ÀÄÄÄsessions
+ÃÄÄÄapp
+³   ³   .gitignore
+³   ³   build.gradle
+³   ³   build.gradle.kts
+³   ³   google-services.json
+³   ³   proguard-rules.pro
+³   ³   
+³   ÃÄÄÄbuild
+³   ³   ³   gmpAppId.txt
+³   ³   ³   
+³   ³   ÃÄÄÄgenerated
+³   ³   ³   ÀÄÄÄres
+³   ³   ³       ÃÄÄÄpngs
+³   ³   ³       ³   ÀÄÄÄdebug
+³   ³   ³       ÃÄÄÄprocessDebugGoogleServices
+³   ³   ³       ³   ÀÄÄÄvalues
+³   ³   ³       ³           values.xml
+³   ³   ³       ³           
+³   ³   ³       ÀÄÄÄresValues
+³   ³   ³           ÃÄÄÄandroidTest
+³   ³   ³           ³   ÀÄÄÄdebug
+³   ³   ³           ÀÄÄÄdebug
+³   ³   ÃÄÄÄintermediates
+³   ³   ³   ÃÄÄÄaar_metadata_check
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ÃÄÄÄannotation_processor_list
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       annotationProcessors.json
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           annotationProcessors.json
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄapk_ide_redirect_file
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       redirect.txt
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           redirect.txt
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄapp_metadata
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³           app-metadata.properties
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄassets
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄdata
+³   ³   ³   ³   ³           locations.json
+³   ³   ³   ³   ³           
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ÃÄÄÄcompatible_screen_manifest
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³           output-metadata.json
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄcompile_and_runtime_not_namespaced_r_class_jar
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       R.jar
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           R.jar
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄcompile_app_classes_jar
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³           classes.jar
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄcompressed_assets
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ³       ÀÄÄÄassets
+³   ³   ³   ³   ³           ÀÄÄÄdata
+³   ³   ³   ³   ³                   locations.json.jar
+³   ³   ³   ³   ³                   
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÃÄÄÄdata_binding_layout_info_type_merge
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÃÄÄÄdata_binding_layout_info_type_package
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÃÄÄÄdesugar_graph
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ³       ÃÄÄÄcurrentProject
+³   ³   ³   ³   ³       ³   ÃÄÄÄdirs_bucket_0
+³   ³   ³   ³   ³       ³   ³       graph.bin
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄdirs_bucket_1
+³   ³   ³   ³   ³       ³   ³       graph.bin
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄjar_f3170fb8b369c0b93e9af5341b0a6154ce508c8c749f33219fd615ba3e04cfdd_bucket_0
+³   ³   ³   ³   ³       ³   ³       graph.bin
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÀÄÄÄjar_f3170fb8b369c0b93e9af5341b0a6154ce508c8c749f33219fd615ba3e04cfdd_bucket_1
+³   ³   ³   ³   ³       ³           graph.bin
+³   ³   ³   ³   ³       ³           
+³   ³   ³   ³   ³       ÃÄÄÄexternalLibs
+³   ³   ³   ³   ³       ÃÄÄÄmixedScopes
+³   ³   ³   ³   ³       ÀÄÄÄotherProjects
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ³           ÃÄÄÄcurrentProject
+³   ³   ³   ³           ³   ÃÄÄÄdirs_bucket_0
+³   ³   ³   ³           ³   ³       graph.bin
+³   ³   ³   ³           ³   ³       
+³   ³   ³   ³           ³   ÃÄÄÄdirs_bucket_1
+³   ³   ³   ³           ³   ³       graph.bin
+³   ³   ³   ³           ³   ³       
+³   ³   ³   ³           ³   ÃÄÄÄjar_29c1282f8cd65900fff00f2979c04edcdc799c02a98aceb7f944f155afde1773_bucket_0
+³   ³   ³   ³           ³   ³       graph.bin
+³   ³   ³   ³           ³   ³       
+³   ³   ³   ³           ³   ÀÄÄÄjar_29c1282f8cd65900fff00f2979c04edcdc799c02a98aceb7f944f155afde1773_bucket_1
+³   ³   ³   ³           ³           graph.bin
+³   ³   ³   ³           ³           
+³   ³   ³   ³           ÃÄÄÄexternalLibs
+³   ³   ³   ³           ÃÄÄÄmixedScopes
+³   ³   ³   ³           ÀÄÄÄotherProjects
+³   ³   ³   ÃÄÄÄdex
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÃÄÄÄmergeExtDexDebug
+³   ³   ³   ³   ³   ³       classes.dex
+³   ³   ³   ³   ³   ³       classes2.dex
+³   ³   ³   ³   ³   ³       classes3.dex
+³   ³   ³   ³   ³   ³       classes4.dex
+³   ³   ³   ³   ³   ³       
+³   ³   ³   ³   ³   ÃÄÄÄmergeLibDexDebug
+³   ³   ³   ³   ³   ³   ÃÄÄÄ0
+³   ³   ³   ³   ³   ³   ÃÄÄÄ1
+³   ³   ³   ³   ³   ³   ÃÄÄÄ10
+³   ³   ³   ³   ³   ³   ÃÄÄÄ11
+³   ³   ³   ³   ³   ³   ÃÄÄÄ12
+³   ³   ³   ³   ³   ³   ÃÄÄÄ13
+³   ³   ³   ³   ³   ³   ÃÄÄÄ14
+³   ³   ³   ³   ³   ³   ÃÄÄÄ15
+³   ³   ³   ³   ³   ³   ÃÄÄÄ2
+³   ³   ³   ³   ³   ³   ÃÄÄÄ3
+³   ³   ³   ³   ³   ³   ÃÄÄÄ4
+³   ³   ³   ³   ³   ³   ÃÄÄÄ5
+³   ³   ³   ³   ³   ³   ÃÄÄÄ6
+³   ³   ³   ³   ³   ³   ÃÄÄÄ7
+³   ³   ³   ³   ³   ³   ÃÄÄÄ8
+³   ³   ³   ³   ³   ³   ÀÄÄÄ9
+³   ³   ³   ³   ³   ÀÄÄÄmergeProjectDexDebug
+³   ³   ³   ³   ³       ÃÄÄÄ0
+³   ³   ³   ³   ³       ³       classes.dex
+³   ³   ³   ³   ³       ³       
+³   ³   ³   ³   ³       ÃÄÄÄ1
+³   ³   ³   ³   ³       ³       classes.dex
+³   ³   ³   ³   ³       ³       
+³   ³   ³   ³   ³       ÃÄÄÄ10
+³   ³   ³   ³   ³       ÃÄÄÄ11
+³   ³   ³   ³   ³       ÃÄÄÄ12
+³   ³   ³   ³   ³       ³       classes.dex
+³   ³   ³   ³   ³       ³       
+³   ³   ³   ³   ³       ÃÄÄÄ13
+³   ³   ³   ³   ³       ÃÄÄÄ14
+³   ³   ³   ³   ³       ÃÄÄÄ15
+³   ³   ³   ³   ³       ³       classes.dex
+³   ³   ³   ³   ³       ³       
+³   ³   ³   ³   ³       ÃÄÄÄ2
+³   ³   ³   ³   ³       ³       classes.dex
+³   ³   ³   ³   ³       ³       
+³   ³   ³   ³   ³       ÃÄÄÄ3
+³   ³   ³   ³   ³       ³       classes.dex
+³   ³   ³   ³   ³       ³       
+³   ³   ³   ³   ³       ÃÄÄÄ4
+³   ³   ³   ³   ³       ÃÄÄÄ5
+³   ³   ³   ³   ³       ÃÄÄÄ6
+³   ³   ³   ³   ³       ³       classes.dex
+³   ³   ³   ³   ³       ³       
+³   ³   ³   ³   ³       ÃÄÄÄ7
+³   ³   ³   ³   ³       ÃÄÄÄ8
+³   ³   ³   ³   ³       ³       classes.dex
+³   ³   ³   ³   ³       ³       
+³   ³   ³   ³   ³       ÀÄÄÄ9
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÃÄÄÄmergeExtDexDebugAndroidTest
+³   ³   ³   ³       ³       classes.dex
+³   ³   ³   ³       ³       
+³   ³   ³   ³       ÃÄÄÄmergeLibDexDebugAndroidTest
+³   ³   ³   ³       ³   ÃÄÄÄ0
+³   ³   ³   ³       ³   ÃÄÄÄ1
+³   ³   ³   ³       ³   ÃÄÄÄ10
+³   ³   ³   ³       ³   ÃÄÄÄ11
+³   ³   ³   ³       ³   ÃÄÄÄ12
+³   ³   ³   ³       ³   ÃÄÄÄ13
+³   ³   ³   ³       ³   ÃÄÄÄ14
+³   ³   ³   ³       ³   ÃÄÄÄ15
+³   ³   ³   ³       ³   ÃÄÄÄ2
+³   ³   ³   ³       ³   ÃÄÄÄ3
+³   ³   ³   ³       ³   ÃÄÄÄ4
+³   ³   ³   ³       ³   ÃÄÄÄ5
+³   ³   ³   ³       ³   ÃÄÄÄ6
+³   ³   ³   ³       ³   ÃÄÄÄ7
+³   ³   ³   ³       ³   ÃÄÄÄ8
+³   ³   ³   ³       ³   ÀÄÄÄ9
+³   ³   ³   ³       ÀÄÄÄmergeProjectDexDebugAndroidTest
+³   ³   ³   ³           ÃÄÄÄ0
+³   ³   ³   ³           ³       classes.dex
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÃÄÄÄ1
+³   ³   ³   ³           ³       classes.dex
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÃÄÄÄ10
+³   ³   ³   ³           ÃÄÄÄ11
+³   ³   ³   ³           ÃÄÄÄ12
+³   ³   ³   ³           ÃÄÄÄ13
+³   ³   ³   ³           ÃÄÄÄ14
+³   ³   ³   ³           ÃÄÄÄ15
+³   ³   ³   ³           ÃÄÄÄ2
+³   ³   ³   ³           ÃÄÄÄ3
+³   ³   ³   ³           ÃÄÄÄ4
+³   ³   ³   ³           ÃÄÄÄ5
+³   ³   ³   ³           ÃÄÄÄ6
+³   ³   ³   ³           ÃÄÄÄ7
+³   ³   ³   ³           ÃÄÄÄ8
+³   ³   ³   ³           ÀÄÄÄ9
+³   ³   ³   ÃÄÄÄdex_archive_input_jar_hashes
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       out
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           out
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄdex_number_of_buckets_file
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       out
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           out
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄduplicate_classes_check
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ÃÄÄÄexternal_file_lib_dex_archives
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ÃÄÄÄexternal_libs_dex_archive
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÃÄÄÄexternal_libs_dex_archive_with_artifact_transforms
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÃÄÄÄincremental
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÃÄÄÄmergeDebugResources
+³   ³   ³   ³   ³   ³   ³   compile-file-map.properties
+³   ³   ³   ³   ³   ³   ³   merger.xml
+³   ³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ³   ÃÄÄÄmerged.dir
+³   ³   ³   ³   ³   ³   ÀÄÄÄstripped.dir
+³   ³   ³   ³   ³   ÀÄÄÄpackageDebugResources
+³   ³   ³   ³   ³       ³   compile-file-map.properties
+³   ³   ³   ³   ³       ³   merger.xml
+³   ³   ³   ³   ³       ³   
+³   ³   ³   ³   ³       ÃÄÄÄmerged.dir
+³   ³   ³   ³   ³       ÀÄÄÄstripped.dir
+³   ³   ³   ³   ÃÄÄÄdebug-mergeJavaRes
+³   ³   ³   ³   ³   ³   merge-state
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄzip-cache
+³   ³   ³   ³   ³           +RxiMDKT6HQm2Kga8_xiAKUh8io=
+³   ³   ³   ³   ³           09Lni7vUH5rTbdrX__VtEIC8D2M=
+³   ³   ³   ³   ³           0fFW+qLL9rXbsTz8A8Hj3xhyCnw=
+³   ³   ³   ³   ³           2h7egbAEh62COCKiE6BIl36en3c=
+³   ³   ³   ³   ³           2MEgP7Sa0R9a2XkgLidoHqnqOCM=
+³   ³   ³   ³   ³           3dEvBtZU1D6hDPzyGyZLIkyxxvY=
+³   ³   ³   ³   ³           3kUzHgFETAwR33TUJ756vrHCFTs=
+³   ³   ³   ³   ³           3Vnh_1lfCi9ZKMyq3YryAXKIveo=
+³   ³   ³   ³   ³           3_IOjMRbAAuvfAnLm8dmb9O_XU0=
+³   ³   ³   ³   ³           45K0DgUB_F8ZW141C++nbCfvZl0=
+³   ³   ³   ³   ³           5Gng1fIXVFQmGwzlJYwBM6bxnfk=
+³   ³   ³   ³   ³           5UzJvQWoSo3zJk+9IBJtJ1ZKvV4=
+³   ³   ³   ³   ³           695q51WQuGcgibD8+6XB2jkKgLQ=
+³   ³   ³   ³   ³           7ekBPE4gRHMJV7X44TPyx5Q8HxM=
+³   ³   ³   ³   ³           7QB+hZdGekxdDTS+UVELxXSxBJ4=
+³   ³   ³   ³   ³           7rN88VTVOesa2lFeUYp2GgIJK8g=
+³   ³   ³   ³   ³           85XMTG6cfLIWICVkgUv2dxIa8tk=
+³   ³   ³   ³   ³           87oHUxOWO6a6cMMjSCyMy_upMhg=
+³   ³   ³   ³   ³           8uA_T8JWdjQV_npP79ioHPBowOk=
+³   ³   ³   ³   ³           91qnQdXCrpZrzveeGJsRvSzJaQk=
+³   ³   ³   ³   ³           9hu+lugqCTuSzE3hm+l3qa7Ivak=
+³   ³   ³   ³   ³           A0+m_9djIHtA+At68LG5vLdUHSQ=
+³   ³   ³   ³   ³           a2FpKozEXLC64rlsO145iWqrmZM=
+³   ³   ³   ³   ³           a6GygT6Qx4nOAfh6N9XZaAncSjY=
+³   ³   ³   ³   ³           ABEUIDg_fVdHvPolC3vRZ+nfT44=
+³   ³   ³   ³   ³           AdrtFfgyA5TRrhxSOBDFg3rqy38=
+³   ³   ³   ³   ³           aFtFOS8Ba0YqniVbB+FI88KkKkM=
+³   ³   ³   ³   ³           AsfAIj5RA8WFcOfpYy5h54bLLL0=
+³   ³   ³   ³   ³           aSz8AWhYHtIz3IzxedU3t3f+wss=
+³   ³   ³   ³   ³           b6rZHoXn3jxbapBfUqvISZpEqOI=
+³   ³   ³   ³   ³           bDKLBIc2amGSycCoChQZwYn0Omk=
+³   ³   ³   ³   ³           bLvtcbWpI_tmk6X9H_SNe+prbAk=
+³   ³   ³   ³   ³           BNPhXWYF+osBshhpxuzzkqUN+nQ=
+³   ³   ³   ³   ³           bU2qsDNylg5MadHBRyimqOujgaE=
+³   ³   ³   ³   ³           BZA_4P96cLBAN6L4YMNdOX0WHD0=
+³   ³   ³   ³   ³           Cb+HnEVXdPUVUrk2UZcRYAEASgk=
+³   ³   ³   ³   ³           CrNZhSk8JGFU1YBLqm1gFBzLDa8=
+³   ³   ³   ³   ³           cTv5KbQPyX8P8+uSy8qPmMke0nc=
+³   ³   ³   ³   ³           CZhTXa7BYLmydit4tAEGhJu9RSc=
+³   ³   ³   ³   ³           d4icwU+5aTZnFCf6G+f0jyiYF+I=
+³   ³   ³   ³   ³           DfsFcE6Cqzgt9L6n6iLiZ3HIQow=
+³   ³   ³   ³   ³           DntmI4pW5XDkfyYQdabD6zyAshY=
+³   ³   ³   ³   ³           dTrnVXXzpDg5ZINUPNUfxeeujW4=
+³   ³   ³   ³   ³           DzKjD9nZ7yCfB6Vjj7GYv4tfzCk=
+³   ³   ³   ³   ³           EEpjZ1TxwofDfeJ3VfwV6do3U2s=
+³   ³   ³   ³   ³           EizaDxzN6HZUXp5rFASuZzpRaWA=
+³   ³   ³   ³   ³           eMnAagq0lNA0Bmv_lTC8gKC0w1k=
+³   ³   ³   ³   ³           ezaV4ULtJXiGnUoFVv7I0U95w+U=
+³   ³   ³   ³   ³           F6tGZDrM8cOT89SVlQ1tkEQ0Wg8=
+³   ³   ³   ³   ³           fcNyhFeY04VG2UXqEpNJDZ623PA=
+³   ³   ³   ³   ³           FHm36Ukp1aRGUzKrCc2DK1MPdrE=
+³   ³   ³   ³   ³           fRd2hTxD2fPqh1Pd3C3lWWwE6Og=
+³   ³   ³   ³   ³           g1gqw2751MVd0r6B9YhdreFEcqQ=
+³   ³   ³   ³   ³           g6nGdjwZoTnbh4fXDOQseKhiOmA=
+³   ³   ³   ³   ³           GeYowI+sf4NTSm3fkWTgOIxGyZw=
+³   ³   ³   ³   ³           GsUhhzMChk17sdE4DOrBA0jm2ZQ=
+³   ³   ³   ³   ³           H6KGpJmUfF6XXrQYjoG6Qczcxk0=
+³   ³   ³   ³   ³           hIHAxlx_K_Qwp2LXIjNARnN4CtM=
+³   ³   ³   ³   ³           hlZXe6GLnw_fRnveocAvcetAmMg=
+³   ³   ³   ³   ³           HRLZSQzFVp5KN2TuLHKMz+9wISc=
+³   ³   ³   ³   ³           HsE0BpnBrJiBCQLn0Uuq3SyJsiQ=
+³   ³   ³   ³   ³           I2wTzvC7s2k7hMVYSDAGntn4Mes=
+³   ³   ³   ³   ³           iCkoq5baPkGSmXoHTNGdkzL2fuY=
+³   ³   ³   ³   ³           IHOGraW349TY+0lqvZgaqgapWPk=
+³   ³   ³   ³   ³           ilU6ummC7VYEiYk+Ww0OGoxL3+c=
+³   ³   ³   ³   ³           iOfRKb54zgn+l3NjFkIwFlaqb6s=
+³   ³   ³   ³   ³           iOhzY6UnQUI7GPqMNfcOYyRfcj0=
+³   ³   ³   ³   ³           jsPWjbZCmLQ2DeqRW_iFdI1OXGU=
+³   ³   ³   ³   ³           JuOFAJbWUR+QqzsI21wjoyUZRVI=
+³   ³   ³   ³   ³           jXBnJm1rjutWuD6VRXi6q9mMHwo=
+³   ³   ³   ³   ³           K98ACEKsgpo0JTq8GtYdcy1yXBE=
+³   ³   ³   ³   ³           kAp_wCNtrQcZog9ilWXkAxFFbaI=
+³   ³   ³   ³   ³           Ki4W2exkjsDRfk2Szzig74WBE8U=
+³   ³   ³   ³   ³           KtZj0MF9oE5QWlsY+v84hvFT068=
+³   ³   ³   ³   ³           L3NdSdmZQ2Q0kbj2ISnrFcSSO4k=
+³   ³   ³   ³   ³           lAkrxaZxcMAU7JV+jCdHEsDkb58=
+³   ³   ³   ³   ³           lHAcg2fnT8ShbELiQDao2SU8scU=
+³   ³   ³   ³   ³           LPARKV3Q3nQkfTdosmxoEVlcVH4=
+³   ³   ³   ³   ³           lpZv+z0pqow3S5gq0SecNZNSUJk=
+³   ³   ³   ³   ³           Lr+syeM+9L6+9Dfram2vv3A2aC8=
+³   ³   ³   ³   ³           LroGoYv8rawkCdVX1WbPbnE79_Y=
+³   ³   ³   ³   ³           M5sBwzMD34aaXk_b96yZdDLYmV8=
+³   ³   ³   ³   ³           MJ0tbAEkZ41GZ5zvCATznwOwXx8=
+³   ³   ³   ³   ³           MN6SDP9v1Eii2kWDwS4PRoV6ZyE=
+³   ³   ³   ³   ³           Mo6CN3BdvOEJgKddxP4zfjMmidw=
+³   ³   ³   ³   ³           Mq9ciCrgOTa6RbM71yAH+RmKypk=
+³   ³   ³   ³   ³           mzxiZa2cvaJZESftqOjVRyCJyw0=
+³   ³   ³   ³   ³           m_28+8jXoK4JWI_rb33xn5r19Ww=
+³   ³   ³   ³   ³           N+9gz2+yJ7s5k+ANI14pJLrPGms=
+³   ³   ³   ³   ³           N5dFU72tH4jMiCaz3DfOwyTHMD0=
+³   ³   ³   ³   ³           nDNBPaQ4AY5h2+84bY5zaOXAF+g=
+³   ³   ³   ³   ³           ne1jfuAqnAmLflQ1DK5nehRUPoo=
+³   ³   ³   ³   ³           nEcc8X9SejV63ayRjvTWeyM8cFg=
+³   ³   ³   ³   ³           o26yggb+vHr2x7lseZjNwWy7LlI=
+³   ³   ³   ³   ³           oEh57N9l8v90nwy1eV8q1SnGnC0=
+³   ³   ³   ³   ³           oImkgvqkcetrCrB4YtTvK8Fzwok=
+³   ³   ³   ³   ³           OvzaYWyyZh2_ow42m69vUd8+Clc=
+³   ³   ³   ³   ³           P6nc1NsKlGi_8WSnAjgo5OQgznQ=
+³   ³   ³   ³   ³           PE1SJ8ScM_UuD7WPJgPvMrWezQg=
+³   ³   ³   ³   ³           Pfy48ZrS_1YN8_MBLjNczTml4FM=
+³   ³   ³   ³   ³           pHAv0qXWN5qf_auXETEQC49pFvA=
+³   ³   ³   ³   ³           PjRk6w7+iba6wvXvhIk23pdVFPc=
+³   ³   ³   ³   ³           pLbOCGbfyLwEmpawQj0HnfndanY=
+³   ³   ³   ³   ³           PMN089Ya3eZOk2GuNOlxfdS_Vm4=
+³   ³   ³   ³   ³           PNrOq6YGWpizyicj_tG4upTwW4g=
+³   ³   ³   ³   ³           pOdpmelfYhPoL3fEoGsvqGftVVM=
+³   ³   ³   ³   ³           q5j2F3BuB3Fw8srQdyn7h4rgFTU=
+³   ³   ³   ³   ³           qE7UCFgNrHu2nQ3siSIdABdpW+8=
+³   ³   ³   ³   ³           qsPQ1lqmXbFP25_kvNgraQdVJHQ=
+³   ³   ³   ³   ³           QwIMzw7Ymlxe3cT_rwjd8nyRr4g=
+³   ³   ³   ³   ³           sn7F+foxnqVhoF0uGjaqm3LHSPE=
+³   ³   ³   ³   ³           STcIGn2QPhlg6ecedEbyPRMPnC8=
+³   ³   ³   ³   ³           sv3DfnVVcgavKXmNvervtXRdSw8=
+³   ³   ³   ³   ³           T3nM3RNc1IXmnGfW_9Kv1FNjL0w=
+³   ³   ³   ³   ³           tGl6hf5WIq0JsoXoyW2jvx3doFc=
+³   ³   ³   ³   ³           TIXQrv0JpvjKSgsGJkw1sVRYa3c=
+³   ³   ³   ³   ³           UjqOK+jOsfrMeU1rprjhvRvHvhE=
+³   ³   ³   ³   ³           uKMRvOkePuFdCohAUvfA8OjnzjU=
+³   ³   ³   ³   ³           vc4P9Hph8Y0XVIgrFGq7JgCN8Pk=
+³   ³   ³   ³   ³           vEAjJK0TAZp2pjxaAV8GdAe3Pn8=
+³   ³   ³   ³   ³           vFMISYiLm3j5GDlUlyxG5Dmz3Lc=
+³   ³   ³   ³   ³           VjpaBeSy2d8ToLicEsS8olbIb2M=
+³   ³   ³   ³   ³           Vk78j1DVblUCNIreB23tLxR8+J4=
+³   ³   ³   ³   ³           VQqTjQJ+Bw3M7JDEP6nY5T7_HGY=
+³   ³   ³   ³   ³           w3ejZfpVg0DgktrH_ITmGNKY0X4=
+³   ³   ³   ³   ³           waceQONV6J10rST27V8U029y6UA=
+³   ³   ³   ³   ³           XDnyGybzI0t2fUyFSYGELnrFi0I=
+³   ³   ³   ³   ³           xmduIEX+sQSQlxeMEgf4L_O8ab4=
+³   ³   ³   ³   ³           YbNE9Gq6mRSuM3Blgh5xRjhkK08=
+³   ³   ³   ³   ³           yeYF3n2cX3sjBhdGoSac3D0NOWc=
+³   ³   ³   ³   ³           YfFyhkgfjSy67HT2pVOiNdKh9_A=
+³   ³   ³   ³   ³           ykoPRm4bipoXK+hBPXlNnFdp89U=
+³   ³   ³   ³   ³           _LQys2Pd5c_89g_TlL8heC6uPyA=
+³   ³   ³   ³   ³           _uA5igwCzjh_MG5x5AaUZzJbJ1s=
+³   ³   ³   ³   ³           
+³   ³   ³   ³   ÃÄÄÄdebugAndroidTest
+³   ³   ³   ³   ³   ÀÄÄÄmergeDebugAndroidTestResources
+³   ³   ³   ³   ³       ³   compile-file-map.properties
+³   ³   ³   ³   ³       ³   merger.xml
+³   ³   ³   ³   ³       ³   
+³   ³   ³   ³   ³       ÃÄÄÄmerged.dir
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues
+³   ³   ³   ³   ³       ³   ³       values.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-af
+³   ³   ³   ³   ³       ³   ³       values-af.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-am
+³   ³   ³   ³   ³       ³   ³       values-am.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ar
+³   ³   ³   ³   ³       ³   ³       values-ar.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-as
+³   ³   ³   ³   ³       ³   ³       values-as.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-az
+³   ³   ³   ³   ³       ³   ³       values-az.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-b+sr+Latn
+³   ³   ³   ³   ³       ³   ³       values-b+sr+Latn.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-be
+³   ³   ³   ³   ³       ³   ³       values-be.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-bg
+³   ³   ³   ³   ³       ³   ³       values-bg.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-bn
+³   ³   ³   ³   ³       ³   ³       values-bn.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-bs
+³   ³   ³   ³   ³       ³   ³       values-bs.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ca
+³   ³   ³   ³   ³       ³   ³       values-ca.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-cs
+³   ³   ³   ³   ³       ³   ³       values-cs.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-da
+³   ³   ³   ³   ³       ³   ³       values-da.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-de
+³   ³   ³   ³   ³       ³   ³       values-de.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-el
+³   ³   ³   ³   ³       ³   ³       values-el.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-en-rAU
+³   ³   ³   ³   ³       ³   ³       values-en-rAU.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-en-rCA
+³   ³   ³   ³   ³       ³   ³       values-en-rCA.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-en-rGB
+³   ³   ³   ³   ³       ³   ³       values-en-rGB.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-en-rIN
+³   ³   ³   ³   ³       ³   ³       values-en-rIN.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-en-rXC
+³   ³   ³   ³   ³       ³   ³       values-en-rXC.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-es
+³   ³   ³   ³   ³       ³   ³       values-es.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-es-rUS
+³   ³   ³   ³   ³       ³   ³       values-es-rUS.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-et
+³   ³   ³   ³   ³       ³   ³       values-et.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-eu
+³   ³   ³   ³   ³       ³   ³       values-eu.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-fa
+³   ³   ³   ³   ³       ³   ³       values-fa.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-fi
+³   ³   ³   ³   ³       ³   ³       values-fi.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-fr
+³   ³   ³   ³   ³       ³   ³       values-fr.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-fr-rCA
+³   ³   ³   ³   ³       ³   ³       values-fr-rCA.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-gl
+³   ³   ³   ³   ³       ³   ³       values-gl.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-gu
+³   ³   ³   ³   ³       ³   ³       values-gu.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-hi
+³   ³   ³   ³   ³       ³   ³       values-hi.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-hr
+³   ³   ³   ³   ³       ³   ³       values-hr.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-hu
+³   ³   ³   ³   ³       ³   ³       values-hu.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-hy
+³   ³   ³   ³   ³       ³   ³       values-hy.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-in
+³   ³   ³   ³   ³       ³   ³       values-in.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-is
+³   ³   ³   ³   ³       ³   ³       values-is.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-it
+³   ³   ³   ³   ³       ³   ³       values-it.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-iw
+³   ³   ³   ³   ³       ³   ³       values-iw.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ja
+³   ³   ³   ³   ³       ³   ³       values-ja.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ka
+³   ³   ³   ³   ³       ³   ³       values-ka.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-kk
+³   ³   ³   ³   ³       ³   ³       values-kk.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-km
+³   ³   ³   ³   ³       ³   ³       values-km.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-kn
+³   ³   ³   ³   ³       ³   ³       values-kn.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ko
+³   ³   ³   ³   ³       ³   ³       values-ko.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ky
+³   ³   ³   ³   ³       ³   ³       values-ky.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-lo
+³   ³   ³   ³   ³       ³   ³       values-lo.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-lt
+³   ³   ³   ³   ³       ³   ³       values-lt.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-lv
+³   ³   ³   ³   ³       ³   ³       values-lv.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-mk
+³   ³   ³   ³   ³       ³   ³       values-mk.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ml
+³   ³   ³   ³   ³       ³   ³       values-ml.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-mn
+³   ³   ³   ³   ³       ³   ³       values-mn.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-mr
+³   ³   ³   ³   ³       ³   ³       values-mr.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ms
+³   ³   ³   ³   ³       ³   ³       values-ms.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-my
+³   ³   ³   ³   ³       ³   ³       values-my.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-nb
+³   ³   ³   ³   ³       ³   ³       values-nb.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ne
+³   ³   ³   ³   ³       ³   ³       values-ne.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-nl
+³   ³   ³   ³   ³       ³   ³       values-nl.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-or
+³   ³   ³   ³   ³       ³   ³       values-or.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-pa
+³   ³   ³   ³   ³       ³   ³       values-pa.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-pl
+³   ³   ³   ³   ³       ³   ³       values-pl.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-pt
+³   ³   ³   ³   ³       ³   ³       values-pt.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-pt-rBR
+³   ³   ³   ³   ³       ³   ³       values-pt-rBR.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-pt-rPT
+³   ³   ³   ³   ³       ³   ³       values-pt-rPT.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ro
+³   ³   ³   ³   ³       ³   ³       values-ro.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ru
+³   ³   ³   ³   ³       ³   ³       values-ru.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-si
+³   ³   ³   ³   ³       ³   ³       values-si.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-sk
+³   ³   ³   ³   ³       ³   ³       values-sk.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-sl
+³   ³   ³   ³   ³       ³   ³       values-sl.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-sq
+³   ³   ³   ³   ³       ³   ³       values-sq.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-sr
+³   ³   ³   ³   ³       ³   ³       values-sr.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-sv
+³   ³   ³   ³   ³       ³   ³       values-sv.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-sw
+³   ³   ³   ³   ³       ³   ³       values-sw.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ta
+³   ³   ³   ³   ³       ³   ³       values-ta.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-te
+³   ³   ³   ³   ³       ³   ³       values-te.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-th
+³   ³   ³   ³   ³       ³   ³       values-th.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-tl
+³   ³   ³   ³   ³       ³   ³       values-tl.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-tr
+³   ³   ³   ³   ³       ³   ³       values-tr.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-uk
+³   ³   ³   ³   ³       ³   ³       values-uk.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-ur
+³   ³   ³   ³   ³       ³   ³       values-ur.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-uz
+³   ³   ³   ³   ³       ³   ³       values-uz.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-v16
+³   ³   ³   ³   ³       ³   ³       values-v16.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-v18
+³   ³   ³   ³   ³       ³   ³       values-v18.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-v21
+³   ³   ³   ³   ³       ³   ³       values-v21.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-v28
+³   ³   ³   ³   ³       ³   ³       values-v28.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-vi
+³   ³   ³   ³   ³       ³   ³       values-vi.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-zh-rCN
+³   ³   ³   ³   ³       ³   ³       values-zh-rCN.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-zh-rHK
+³   ³   ³   ³   ³       ³   ³       values-zh-rHK.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÃÄÄÄvalues-zh-rTW
+³   ³   ³   ³   ³       ³   ³       values-zh-rTW.xml
+³   ³   ³   ³   ³       ³   ³       
+³   ³   ³   ³   ³       ³   ÀÄÄÄvalues-zu
+³   ³   ³   ³   ³       ³           values-zu.xml
+³   ³   ³   ³   ³       ³           
+³   ³   ³   ³   ³       ÀÄÄÄstripped.dir
+³   ³   ³   ³   ÃÄÄÄdebugAndroidTest-mergeJavaRes
+³   ³   ³   ³   ³   ³   merge-state
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄzip-cache
+³   ³   ³   ³   ³           1NnjqoOORoL7Y0hg9iJIOmQA3l8=
+³   ³   ³   ³   ³           24k6mWQOdK_Yv2_pof8JRxZ22Z4=
+³   ³   ³   ³   ³           2cWAMlxFOkAzE8oe3grwSABKcls=
+³   ³   ³   ³   ³           2wW4AX_Xhmzg_cH0zNZrNl3BkTg=
+³   ³   ³   ³   ³           5guxvVidzBoigY65QOgSKzRuA_E=
+³   ³   ³   ³   ³           73j42Qv+4hufwKWaQyEHcW+BcKo=
+³   ³   ³   ³   ³           B1FG05YZePlpw_Gbbb8mOWF8FkI=
+³   ³   ³   ³   ³           CGPHCWbn_QIPJUXlc1dnqBBL_2E=
+³   ³   ³   ³   ³           cW+a2DHehI2acyAvbssRb4vgVqA=
+³   ³   ³   ³   ³           E4OtnsULnpBJfvuk1LDIT_n5ZP4=
+³   ³   ³   ³   ³           fjr4tRZI0W91NzYg9bsgmwWJEmY=
+³   ³   ³   ³   ³           L6sl_meF9ktB7I5tUxxIdZhbEaE=
+³   ³   ³   ³   ³           oIUd36UJlMaZ_phTRa5bK8j_hRo=
+³   ³   ³   ³   ³           v0ZckXB25rRbWzq95bcanCWl+e8=
+³   ³   ³   ³   ³           ZG+oQQsU3eXZk+ZpFdEK2noMFCY=
+³   ³   ³   ³   ³           ZtDFSHUT6WN3PYKMLIpDEqMth9w=
+³   ³   ³   ³   ³           
+³   ³   ³   ³   ÃÄÄÄmergeDebugAndroidTestAssets
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugAndroidTestJniLibFolders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugAndroidTestShaders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugAssets
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugJniLibFolders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄmergeDebugShaders
+³   ³   ³   ³   ³       merger.xml
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÃÄÄÄpackageDebug
+³   ³   ³   ³   ³   ÀÄÄÄtmp
+³   ³   ³   ³   ³       ÀÄÄÄdebug
+³   ³   ³   ³   ³           ³   dex-renamer-state.txt
+³   ³   ³   ³   ³           ³   
+³   ³   ³   ³   ³           ÀÄÄÄzip-cache
+³   ³   ³   ³   ³                   androidResources
+³   ³   ³   ³   ³                   javaResources0
+³   ³   ³   ³   ³                   
+³   ³   ³   ³   ÀÄÄÄpackageDebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄtmp
+³   ³   ³   ³           ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³               ³   dex-renamer-state.txt
+³   ³   ³   ³               ³   
+³   ³   ³   ³               ÀÄÄÄzip-cache
+³   ³   ³   ³                       androidResources
+³   ³   ³   ³                       javaResources0
+³   ³   ³   ³                       
+³   ³   ³   ÃÄÄÄjava_res
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ³       ÃÄÄÄcom
+³   ³   ³   ³   ³       ³   ÀÄÄÄexample
+³   ³   ³   ³   ³       ³       ÀÄÄÄslurp_v0
+³   ³   ³   ³   ³       ³           ÃÄÄÄdata
+³   ³   ³   ³   ³       ³           ³   ÃÄÄÄconstants
+³   ³   ³   ³   ³       ³           ³   ÃÄÄÄmodel
+³   ³   ³   ³   ³       ³           ³   ÀÄÄÄrepository
+³   ³   ³   ³   ³       ³           ÀÄÄÄui
+³   ³   ³   ³   ³       ³               ÃÄÄÄauth
+³   ³   ³   ³   ³       ³               ÃÄÄÄcomponents
+³   ³   ³   ³   ³       ³               ÃÄÄÄdashboard
+³   ³   ³   ³   ³       ³               ÃÄÄÄexplore
+³   ³   ³   ³   ³       ³               ÃÄÄÄnavigation
+³   ³   ³   ³   ³       ³               ÃÄÄÄprofile
+³   ³   ³   ³   ³       ³               ÃÄÄÄsubmit
+³   ³   ³   ³   ³       ³               ÀÄÄÄtheme
+³   ³   ³   ³   ³       ÀÄÄÄMETA-INF
+³   ³   ³   ³   ³               app_debug.kotlin_module
+³   ³   ³   ³   ³               
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ³           ÃÄÄÄcom
+³   ³   ³   ³           ³   ÀÄÄÄexample
+³   ³   ³   ³           ³       ÀÄÄÄslurp_v0
+³   ³   ³   ³           ÀÄÄÄMETA-INF
+³   ³   ³   ³                   app_debugAndroidTest.kotlin_module
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄlocal_only_symbol_list
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³           R-def.txt
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄmanifest_merge_blame_file
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       manifest-merger-blame-debug-report.txt
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           manifest-merger-blame-debug-androidTest-report.txt
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄmerged_java_res
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       base.jar
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           feature-app.jar
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄmerged_jni_libs
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÃÄÄÄmerged_manifest
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³           AndroidManifest.xml
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄmerged_manifests
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³           AndroidManifest.xml
+³   ³   ³   ³           output-metadata.json
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄmerged_res
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       drawable_ic_launcher_background.xml.flat
+³   ³   ³   ³   ³       drawable_ic_launcher_foreground.xml.flat
+³   ³   ³   ³   ³       drawable_tunisia_map.png.flat
+³   ³   ³   ³   ³       drawable_tunisia_map_with_labels.png.flat
+³   ³   ³   ³   ³       mipmap-anydpi-v26_ic_launcher.xml.flat
+³   ³   ³   ³   ³       mipmap-anydpi-v26_ic_launcher_round.xml.flat
+³   ³   ³   ³   ³       mipmap-hdpi_ic_launcher.webp.flat
+³   ³   ³   ³   ³       mipmap-hdpi_ic_launcher_round.webp.flat
+³   ³   ³   ³   ³       mipmap-mdpi_ic_launcher.webp.flat
+³   ³   ³   ³   ³       mipmap-mdpi_ic_launcher_round.webp.flat
+³   ³   ³   ³   ³       mipmap-xhdpi_ic_launcher.webp.flat
+³   ³   ³   ³   ³       mipmap-xhdpi_ic_launcher_round.webp.flat
+³   ³   ³   ³   ³       mipmap-xxhdpi_ic_launcher.webp.flat
+³   ³   ³   ³   ³       mipmap-xxhdpi_ic_launcher_round.webp.flat
+³   ³   ³   ³   ³       mipmap-xxxhdpi_ic_launcher.webp.flat
+³   ³   ³   ³   ³       mipmap-xxxhdpi_ic_launcher_round.webp.flat
+³   ³   ³   ³   ³       values-af_values-af.arsc.flat
+³   ³   ³   ³   ³       values-am_values-am.arsc.flat
+³   ³   ³   ³   ³       values-ar_values-ar.arsc.flat
+³   ³   ³   ³   ³       values-as_values-as.arsc.flat
+³   ³   ³   ³   ³       values-az_values-az.arsc.flat
+³   ³   ³   ³   ³       values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+³   ³   ³   ³   ³       values-be_values-be.arsc.flat
+³   ³   ³   ³   ³       values-bg_values-bg.arsc.flat
+³   ³   ³   ³   ³       values-bn_values-bn.arsc.flat
+³   ³   ³   ³   ³       values-bs_values-bs.arsc.flat
+³   ³   ³   ³   ³       values-ca_values-ca.arsc.flat
+³   ³   ³   ³   ³       values-cs_values-cs.arsc.flat
+³   ³   ³   ³   ³       values-da_values-da.arsc.flat
+³   ³   ³   ³   ³       values-de_values-de.arsc.flat
+³   ³   ³   ³   ³       values-el_values-el.arsc.flat
+³   ³   ³   ³   ³       values-en-rAU_values-en-rAU.arsc.flat
+³   ³   ³   ³   ³       values-en-rCA_values-en-rCA.arsc.flat
+³   ³   ³   ³   ³       values-en-rGB_values-en-rGB.arsc.flat
+³   ³   ³   ³   ³       values-en-rIN_values-en-rIN.arsc.flat
+³   ³   ³   ³   ³       values-en-rXC_values-en-rXC.arsc.flat
+³   ³   ³   ³   ³       values-es-rUS_values-es-rUS.arsc.flat
+³   ³   ³   ³   ³       values-es_values-es.arsc.flat
+³   ³   ³   ³   ³       values-et_values-et.arsc.flat
+³   ³   ³   ³   ³       values-eu_values-eu.arsc.flat
+³   ³   ³   ³   ³       values-fa_values-fa.arsc.flat
+³   ³   ³   ³   ³       values-fi_values-fi.arsc.flat
+³   ³   ³   ³   ³       values-fr-rCA_values-fr-rCA.arsc.flat
+³   ³   ³   ³   ³       values-fr_values-fr.arsc.flat
+³   ³   ³   ³   ³       values-gl_values-gl.arsc.flat
+³   ³   ³   ³   ³       values-gu_values-gu.arsc.flat
+³   ³   ³   ³   ³       values-hi_values-hi.arsc.flat
+³   ³   ³   ³   ³       values-hr_values-hr.arsc.flat
+³   ³   ³   ³   ³       values-hu_values-hu.arsc.flat
+³   ³   ³   ³   ³       values-hy_values-hy.arsc.flat
+³   ³   ³   ³   ³       values-in_values-in.arsc.flat
+³   ³   ³   ³   ³       values-is_values-is.arsc.flat
+³   ³   ³   ³   ³       values-it_values-it.arsc.flat
+³   ³   ³   ³   ³       values-iw_values-iw.arsc.flat
+³   ³   ³   ³   ³       values-ja_values-ja.arsc.flat
+³   ³   ³   ³   ³       values-ka_values-ka.arsc.flat
+³   ³   ³   ³   ³       values-kk_values-kk.arsc.flat
+³   ³   ³   ³   ³       values-km_values-km.arsc.flat
+³   ³   ³   ³   ³       values-kn_values-kn.arsc.flat
+³   ³   ³   ³   ³       values-ko_values-ko.arsc.flat
+³   ³   ³   ³   ³       values-ky_values-ky.arsc.flat
+³   ³   ³   ³   ³       values-lo_values-lo.arsc.flat
+³   ³   ³   ³   ³       values-lt_values-lt.arsc.flat
+³   ³   ³   ³   ³       values-lv_values-lv.arsc.flat
+³   ³   ³   ³   ³       values-mk_values-mk.arsc.flat
+³   ³   ³   ³   ³       values-ml_values-ml.arsc.flat
+³   ³   ³   ³   ³       values-mn_values-mn.arsc.flat
+³   ³   ³   ³   ³       values-mr_values-mr.arsc.flat
+³   ³   ³   ³   ³       values-ms_values-ms.arsc.flat
+³   ³   ³   ³   ³       values-my_values-my.arsc.flat
+³   ³   ³   ³   ³       values-nb_values-nb.arsc.flat
+³   ³   ³   ³   ³       values-ne_values-ne.arsc.flat
+³   ³   ³   ³   ³       values-nl_values-nl.arsc.flat
+³   ³   ³   ³   ³       values-or_values-or.arsc.flat
+³   ³   ³   ³   ³       values-pa_values-pa.arsc.flat
+³   ³   ³   ³   ³       values-pl_values-pl.arsc.flat
+³   ³   ³   ³   ³       values-pt-rBR_values-pt-rBR.arsc.flat
+³   ³   ³   ³   ³       values-pt-rPT_values-pt-rPT.arsc.flat
+³   ³   ³   ³   ³       values-pt_values-pt.arsc.flat
+³   ³   ³   ³   ³       values-ro_values-ro.arsc.flat
+³   ³   ³   ³   ³       values-ru_values-ru.arsc.flat
+³   ³   ³   ³   ³       values-si_values-si.arsc.flat
+³   ³   ³   ³   ³       values-sk_values-sk.arsc.flat
+³   ³   ³   ³   ³       values-sl_values-sl.arsc.flat
+³   ³   ³   ³   ³       values-sq_values-sq.arsc.flat
+³   ³   ³   ³   ³       values-sr_values-sr.arsc.flat
+³   ³   ³   ³   ³       values-sv_values-sv.arsc.flat
+³   ³   ³   ³   ³       values-sw_values-sw.arsc.flat
+³   ³   ³   ³   ³       values-ta_values-ta.arsc.flat
+³   ³   ³   ³   ³       values-te_values-te.arsc.flat
+³   ³   ³   ³   ³       values-th_values-th.arsc.flat
+³   ³   ³   ³   ³       values-tl_values-tl.arsc.flat
+³   ³   ³   ³   ³       values-tr_values-tr.arsc.flat
+³   ³   ³   ³   ³       values-uk_values-uk.arsc.flat
+³   ³   ³   ³   ³       values-ur_values-ur.arsc.flat
+³   ³   ³   ³   ³       values-uz_values-uz.arsc.flat
+³   ³   ³   ³   ³       values-v16_values-v16.arsc.flat
+³   ³   ³   ³   ³       values-v21_values-v21.arsc.flat
+³   ³   ³   ³   ³       values-vi_values-vi.arsc.flat
+³   ³   ³   ³   ³       values-zh-rCN_values-zh-rCN.arsc.flat
+³   ³   ³   ³   ³       values-zh-rHK_values-zh-rHK.arsc.flat
+³   ³   ³   ³   ³       values-zh-rTW_values-zh-rTW.arsc.flat
+³   ³   ³   ³   ³       values-zu_values-zu.arsc.flat
+³   ³   ³   ³   ³       values_values.arsc.flat
+³   ³   ³   ³   ³       xml_backup_rules.xml.flat
+³   ³   ³   ³   ³       xml_data_extraction_rules.xml.flat
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           values-af_values-af.arsc.flat
+³   ³   ³   ³           values-am_values-am.arsc.flat
+³   ³   ³   ³           values-ar_values-ar.arsc.flat
+³   ³   ³   ³           values-as_values-as.arsc.flat
+³   ³   ³   ³           values-az_values-az.arsc.flat
+³   ³   ³   ³           values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+³   ³   ³   ³           values-be_values-be.arsc.flat
+³   ³   ³   ³           values-bg_values-bg.arsc.flat
+³   ³   ³   ³           values-bn_values-bn.arsc.flat
+³   ³   ³   ³           values-bs_values-bs.arsc.flat
+³   ³   ³   ³           values-ca_values-ca.arsc.flat
+³   ³   ³   ³           values-cs_values-cs.arsc.flat
+³   ³   ³   ³           values-da_values-da.arsc.flat
+³   ³   ³   ³           values-de_values-de.arsc.flat
+³   ³   ³   ³           values-el_values-el.arsc.flat
+³   ³   ³   ³           values-en-rAU_values-en-rAU.arsc.flat
+³   ³   ³   ³           values-en-rCA_values-en-rCA.arsc.flat
+³   ³   ³   ³           values-en-rGB_values-en-rGB.arsc.flat
+³   ³   ³   ³           values-en-rIN_values-en-rIN.arsc.flat
+³   ³   ³   ³           values-en-rXC_values-en-rXC.arsc.flat
+³   ³   ³   ³           values-es-rUS_values-es-rUS.arsc.flat
+³   ³   ³   ³           values-es_values-es.arsc.flat
+³   ³   ³   ³           values-et_values-et.arsc.flat
+³   ³   ³   ³           values-eu_values-eu.arsc.flat
+³   ³   ³   ³           values-fa_values-fa.arsc.flat
+³   ³   ³   ³           values-fi_values-fi.arsc.flat
+³   ³   ³   ³           values-fr-rCA_values-fr-rCA.arsc.flat
+³   ³   ³   ³           values-fr_values-fr.arsc.flat
+³   ³   ³   ³           values-gl_values-gl.arsc.flat
+³   ³   ³   ³           values-gu_values-gu.arsc.flat
+³   ³   ³   ³           values-hi_values-hi.arsc.flat
+³   ³   ³   ³           values-hr_values-hr.arsc.flat
+³   ³   ³   ³           values-hu_values-hu.arsc.flat
+³   ³   ³   ³           values-hy_values-hy.arsc.flat
+³   ³   ³   ³           values-in_values-in.arsc.flat
+³   ³   ³   ³           values-is_values-is.arsc.flat
+³   ³   ³   ³           values-it_values-it.arsc.flat
+³   ³   ³   ³           values-iw_values-iw.arsc.flat
+³   ³   ³   ³           values-ja_values-ja.arsc.flat
+³   ³   ³   ³           values-ka_values-ka.arsc.flat
+³   ³   ³   ³           values-kk_values-kk.arsc.flat
+³   ³   ³   ³           values-km_values-km.arsc.flat
+³   ³   ³   ³           values-kn_values-kn.arsc.flat
+³   ³   ³   ³           values-ko_values-ko.arsc.flat
+³   ³   ³   ³           values-ky_values-ky.arsc.flat
+³   ³   ³   ³           values-lo_values-lo.arsc.flat
+³   ³   ³   ³           values-lt_values-lt.arsc.flat
+³   ³   ³   ³           values-lv_values-lv.arsc.flat
+³   ³   ³   ³           values-mk_values-mk.arsc.flat
+³   ³   ³   ³           values-ml_values-ml.arsc.flat
+³   ³   ³   ³           values-mn_values-mn.arsc.flat
+³   ³   ³   ³           values-mr_values-mr.arsc.flat
+³   ³   ³   ³           values-ms_values-ms.arsc.flat
+³   ³   ³   ³           values-my_values-my.arsc.flat
+³   ³   ³   ³           values-nb_values-nb.arsc.flat
+³   ³   ³   ³           values-ne_values-ne.arsc.flat
+³   ³   ³   ³           values-nl_values-nl.arsc.flat
+³   ³   ³   ³           values-or_values-or.arsc.flat
+³   ³   ³   ³           values-pa_values-pa.arsc.flat
+³   ³   ³   ³           values-pl_values-pl.arsc.flat
+³   ³   ³   ³           values-pt-rBR_values-pt-rBR.arsc.flat
+³   ³   ³   ³           values-pt-rPT_values-pt-rPT.arsc.flat
+³   ³   ³   ³           values-pt_values-pt.arsc.flat
+³   ³   ³   ³           values-ro_values-ro.arsc.flat
+³   ³   ³   ³           values-ru_values-ru.arsc.flat
+³   ³   ³   ³           values-si_values-si.arsc.flat
+³   ³   ³   ³           values-sk_values-sk.arsc.flat
+³   ³   ³   ³           values-sl_values-sl.arsc.flat
+³   ³   ³   ³           values-sq_values-sq.arsc.flat
+³   ³   ³   ³           values-sr_values-sr.arsc.flat
+³   ³   ³   ³           values-sv_values-sv.arsc.flat
+³   ³   ³   ³           values-sw_values-sw.arsc.flat
+³   ³   ³   ³           values-ta_values-ta.arsc.flat
+³   ³   ³   ³           values-te_values-te.arsc.flat
+³   ³   ³   ³           values-th_values-th.arsc.flat
+³   ³   ³   ³           values-tl_values-tl.arsc.flat
+³   ³   ³   ³           values-tr_values-tr.arsc.flat
+³   ³   ³   ³           values-uk_values-uk.arsc.flat
+³   ³   ³   ³           values-ur_values-ur.arsc.flat
+³   ³   ³   ³           values-uz_values-uz.arsc.flat
+³   ³   ³   ³           values-v16_values-v16.arsc.flat
+³   ³   ³   ³           values-v18_values-v18.arsc.flat
+³   ³   ³   ³           values-v21_values-v21.arsc.flat
+³   ³   ³   ³           values-v28_values-v28.arsc.flat
+³   ³   ³   ³           values-vi_values-vi.arsc.flat
+³   ³   ³   ³           values-zh-rCN_values-zh-rCN.arsc.flat
+³   ³   ³   ³           values-zh-rHK_values-zh-rHK.arsc.flat
+³   ³   ³   ³           values-zh-rTW_values-zh-rTW.arsc.flat
+³   ³   ³   ³           values-zu_values-zu.arsc.flat
+³   ³   ³   ³           values_values.arsc.flat
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄmerged_res_blame_folder
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ³       ÃÄÄÄmulti-v2
+³   ³   ³   ³   ³       ³       debug.json
+³   ³   ³   ³   ³       ³       values-af.json
+³   ³   ³   ³   ³       ³       values-am.json
+³   ³   ³   ³   ³       ³       values-ar.json
+³   ³   ³   ³   ³       ³       values-as.json
+³   ³   ³   ³   ³       ³       values-az.json
+³   ³   ³   ³   ³       ³       values-b+sr+Latn.json
+³   ³   ³   ³   ³       ³       values-be.json
+³   ³   ³   ³   ³       ³       values-bg.json
+³   ³   ³   ³   ³       ³       values-bn.json
+³   ³   ³   ³   ³       ³       values-bs.json
+³   ³   ³   ³   ³       ³       values-ca.json
+³   ³   ³   ³   ³       ³       values-cs.json
+³   ³   ³   ³   ³       ³       values-da.json
+³   ³   ³   ³   ³       ³       values-de.json
+³   ³   ³   ³   ³       ³       values-el.json
+³   ³   ³   ³   ³       ³       values-en-rAU.json
+³   ³   ³   ³   ³       ³       values-en-rCA.json
+³   ³   ³   ³   ³       ³       values-en-rGB.json
+³   ³   ³   ³   ³       ³       values-en-rIN.json
+³   ³   ³   ³   ³       ³       values-en-rXC.json
+³   ³   ³   ³   ³       ³       values-es-rUS.json
+³   ³   ³   ³   ³       ³       values-es.json
+³   ³   ³   ³   ³       ³       values-et.json
+³   ³   ³   ³   ³       ³       values-eu.json
+³   ³   ³   ³   ³       ³       values-fa.json
+³   ³   ³   ³   ³       ³       values-fi.json
+³   ³   ³   ³   ³       ³       values-fr-rCA.json
+³   ³   ³   ³   ³       ³       values-fr.json
+³   ³   ³   ³   ³       ³       values-gl.json
+³   ³   ³   ³   ³       ³       values-gu.json
+³   ³   ³   ³   ³       ³       values-hi.json
+³   ³   ³   ³   ³       ³       values-hr.json
+³   ³   ³   ³   ³       ³       values-hu.json
+³   ³   ³   ³   ³       ³       values-hy.json
+³   ³   ³   ³   ³       ³       values-in.json
+³   ³   ³   ³   ³       ³       values-is.json
+³   ³   ³   ³   ³       ³       values-it.json
+³   ³   ³   ³   ³       ³       values-iw.json
+³   ³   ³   ³   ³       ³       values-ja.json
+³   ³   ³   ³   ³       ³       values-ka.json
+³   ³   ³   ³   ³       ³       values-kk.json
+³   ³   ³   ³   ³       ³       values-km.json
+³   ³   ³   ³   ³       ³       values-kn.json
+³   ³   ³   ³   ³       ³       values-ko.json
+³   ³   ³   ³   ³       ³       values-ky.json
+³   ³   ³   ³   ³       ³       values-lo.json
+³   ³   ³   ³   ³       ³       values-lt.json
+³   ³   ³   ³   ³       ³       values-lv.json
+³   ³   ³   ³   ³       ³       values-mk.json
+³   ³   ³   ³   ³       ³       values-ml.json
+³   ³   ³   ³   ³       ³       values-mn.json
+³   ³   ³   ³   ³       ³       values-mr.json
+³   ³   ³   ³   ³       ³       values-ms.json
+³   ³   ³   ³   ³       ³       values-my.json
+³   ³   ³   ³   ³       ³       values-nb.json
+³   ³   ³   ³   ³       ³       values-ne.json
+³   ³   ³   ³   ³       ³       values-nl.json
+³   ³   ³   ³   ³       ³       values-or.json
+³   ³   ³   ³   ³       ³       values-pa.json
+³   ³   ³   ³   ³       ³       values-pl.json
+³   ³   ³   ³   ³       ³       values-pt-rBR.json
+³   ³   ³   ³   ³       ³       values-pt-rPT.json
+³   ³   ³   ³   ³       ³       values-pt.json
+³   ³   ³   ³   ³       ³       values-ro.json
+³   ³   ³   ³   ³       ³       values-ru.json
+³   ³   ³   ³   ³       ³       values-si.json
+³   ³   ³   ³   ³       ³       values-sk.json
+³   ³   ³   ³   ³       ³       values-sl.json
+³   ³   ³   ³   ³       ³       values-sq.json
+³   ³   ³   ³   ³       ³       values-sr.json
+³   ³   ³   ³   ³       ³       values-sv.json
+³   ³   ³   ³   ³       ³       values-sw.json
+³   ³   ³   ³   ³       ³       values-ta.json
+³   ³   ³   ³   ³       ³       values-te.json
+³   ³   ³   ³   ³       ³       values-th.json
+³   ³   ³   ³   ³       ³       values-tl.json
+³   ³   ³   ³   ³       ³       values-tr.json
+³   ³   ³   ³   ³       ³       values-uk.json
+³   ³   ³   ³   ³       ³       values-ur.json
+³   ³   ³   ³   ³       ³       values-uz.json
+³   ³   ³   ³   ³       ³       values-v16.json
+³   ³   ³   ³   ³       ³       values-v21.json
+³   ³   ³   ³   ³       ³       values-vi.json
+³   ³   ³   ³   ³       ³       values-zh-rCN.json
+³   ³   ³   ³   ³       ³       values-zh-rHK.json
+³   ³   ³   ³   ³       ³       values-zh-rTW.json
+³   ³   ³   ³   ³       ³       values-zu.json
+³   ³   ³   ³   ³       ³       values.json
+³   ³   ³   ³   ³       ³       
+³   ³   ³   ³   ³       ÀÄÄÄsingle
+³   ³   ³   ³   ³               debug.json
+³   ³   ³   ³   ³               
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ³           ÀÄÄÄmulti-v2
+³   ³   ³   ³                   debugAndroidTest.json
+³   ³   ³   ³                   values-af.json
+³   ³   ³   ³                   values-am.json
+³   ³   ³   ³                   values-ar.json
+³   ³   ³   ³                   values-as.json
+³   ³   ³   ³                   values-az.json
+³   ³   ³   ³                   values-b+sr+Latn.json
+³   ³   ³   ³                   values-be.json
+³   ³   ³   ³                   values-bg.json
+³   ³   ³   ³                   values-bn.json
+³   ³   ³   ³                   values-bs.json
+³   ³   ³   ³                   values-ca.json
+³   ³   ³   ³                   values-cs.json
+³   ³   ³   ³                   values-da.json
+³   ³   ³   ³                   values-de.json
+³   ³   ³   ³                   values-el.json
+³   ³   ³   ³                   values-en-rAU.json
+³   ³   ³   ³                   values-en-rCA.json
+³   ³   ³   ³                   values-en-rGB.json
+³   ³   ³   ³                   values-en-rIN.json
+³   ³   ³   ³                   values-en-rXC.json
+³   ³   ³   ³                   values-es-rUS.json
+³   ³   ³   ³                   values-es.json
+³   ³   ³   ³                   values-et.json
+³   ³   ³   ³                   values-eu.json
+³   ³   ³   ³                   values-fa.json
+³   ³   ³   ³                   values-fi.json
+³   ³   ³   ³                   values-fr-rCA.json
+³   ³   ³   ³                   values-fr.json
+³   ³   ³   ³                   values-gl.json
+³   ³   ³   ³                   values-gu.json
+³   ³   ³   ³                   values-hi.json
+³   ³   ³   ³                   values-hr.json
+³   ³   ³   ³                   values-hu.json
+³   ³   ³   ³                   values-hy.json
+³   ³   ³   ³                   values-in.json
+³   ³   ³   ³                   values-is.json
+³   ³   ³   ³                   values-it.json
+³   ³   ³   ³                   values-iw.json
+³   ³   ³   ³                   values-ja.json
+³   ³   ³   ³                   values-ka.json
+³   ³   ³   ³                   values-kk.json
+³   ³   ³   ³                   values-km.json
+³   ³   ³   ³                   values-kn.json
+³   ³   ³   ³                   values-ko.json
+³   ³   ³   ³                   values-ky.json
+³   ³   ³   ³                   values-lo.json
+³   ³   ³   ³                   values-lt.json
+³   ³   ³   ³                   values-lv.json
+³   ³   ³   ³                   values-mk.json
+³   ³   ³   ³                   values-ml.json
+³   ³   ³   ³                   values-mn.json
+³   ³   ³   ³                   values-mr.json
+³   ³   ³   ³                   values-ms.json
+³   ³   ³   ³                   values-my.json
+³   ³   ³   ³                   values-nb.json
+³   ³   ³   ³                   values-ne.json
+³   ³   ³   ³                   values-nl.json
+³   ³   ³   ³                   values-or.json
+³   ³   ³   ³                   values-pa.json
+³   ³   ³   ³                   values-pl.json
+³   ³   ³   ³                   values-pt-rBR.json
+³   ³   ³   ³                   values-pt-rPT.json
+³   ³   ³   ³                   values-pt.json
+³   ³   ³   ³                   values-ro.json
+³   ³   ³   ³                   values-ru.json
+³   ³   ³   ³                   values-si.json
+³   ³   ³   ³                   values-sk.json
+³   ³   ³   ³                   values-sl.json
+³   ³   ³   ³                   values-sq.json
+³   ³   ³   ³                   values-sr.json
+³   ³   ³   ³                   values-sv.json
+³   ³   ³   ³                   values-sw.json
+³   ³   ³   ³                   values-ta.json
+³   ³   ³   ³                   values-te.json
+³   ³   ³   ³                   values-th.json
+³   ³   ³   ³                   values-tl.json
+³   ³   ³   ³                   values-tr.json
+³   ³   ³   ³                   values-uk.json
+³   ³   ³   ³                   values-ur.json
+³   ³   ³   ³                   values-uz.json
+³   ³   ³   ³                   values-v16.json
+³   ³   ³   ³                   values-v18.json
+³   ³   ³   ³                   values-v21.json
+³   ³   ³   ³                   values-v28.json
+³   ³   ³   ³                   values-vi.json
+³   ³   ³   ³                   values-zh-rCN.json
+³   ³   ³   ³                   values-zh-rHK.json
+³   ³   ³   ³                   values-zh-rTW.json
+³   ³   ³   ³                   values-zu.json
+³   ³   ³   ³                   values.json
+³   ³   ³   ³                   
+³   ³   ³   ÃÄÄÄmerged_shaders
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÃÄÄÄmixed_scope_dex_archive
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÃÄÄÄnavigation_json
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³           navigation.json
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄpackaged_manifests
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       AndroidManifest.xml
+³   ³   ³   ³   ³       output-metadata.json
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           AndroidManifest.xml
+³   ³   ³   ³           output-metadata.json
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄpackaged_res
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³       ÃÄÄÄdrawable
+³   ³   ³   ³       ³       ic_launcher_background.xml
+³   ³   ³   ³       ³       ic_launcher_foreground.xml
+³   ³   ³   ³       ³       tunisia_map.png
+³   ³   ³   ³       ³       tunisia_map_with_labels.png
+³   ³   ³   ³       ³       
+³   ³   ³   ³       ÃÄÄÄmipmap-anydpi-v26
+³   ³   ³   ³       ³       ic_launcher.xml
+³   ³   ³   ³       ³       ic_launcher_round.xml
+³   ³   ³   ³       ³       
+³   ³   ³   ³       ÃÄÄÄmipmap-hdpi-v4
+³   ³   ³   ³       ³       ic_launcher.webp
+³   ³   ³   ³       ³       ic_launcher_round.webp
+³   ³   ³   ³       ³       
+³   ³   ³   ³       ÃÄÄÄmipmap-mdpi-v4
+³   ³   ³   ³       ³       ic_launcher.webp
+³   ³   ³   ³       ³       ic_launcher_round.webp
+³   ³   ³   ³       ³       
+³   ³   ³   ³       ÃÄÄÄmipmap-xhdpi-v4
+³   ³   ³   ³       ³       ic_launcher.webp
+³   ³   ³   ³       ³       ic_launcher_round.webp
+³   ³   ³   ³       ³       
+³   ³   ³   ³       ÃÄÄÄmipmap-xxhdpi-v4
+³   ³   ³   ³       ³       ic_launcher.webp
+³   ³   ³   ³       ³       ic_launcher_round.webp
+³   ³   ³   ³       ³       
+³   ³   ³   ³       ÃÄÄÄmipmap-xxxhdpi-v4
+³   ³   ³   ³       ³       ic_launcher.webp
+³   ³   ³   ³       ³       ic_launcher_round.webp
+³   ³   ³   ³       ³       
+³   ³   ³   ³       ÃÄÄÄvalues
+³   ³   ³   ³       ³       values.xml
+³   ³   ³   ³       ³       
+³   ³   ³   ³       ÀÄÄÄxml
+³   ³   ³   ³               backup_rules.xml
+³   ³   ³   ³               data_extraction_rules.xml
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄprocessed_res
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ³           output-metadata.json
+³   ³   ³   ³   ³           resources-debug.ap_
+³   ³   ³   ³   ³           
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ³               output-metadata.json
+³   ³   ³   ³               resources.ap_
+³   ³   ³   ³               
+³   ³   ³   ÃÄÄÄproject_dex_archive
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ³       ³   a6758282e66fdff2cd0fcb55ab34312db1aeaa41e73e30045c90aabf6aaa99cf_0.jar
+³   ³   ³   ³   ³       ³   a6758282e66fdff2cd0fcb55ab34312db1aeaa41e73e30045c90aabf6aaa99cf_1.jar
+³   ³   ³   ³   ³       ³   
+³   ³   ³   ³   ³       ÀÄÄÄcom
+³   ³   ³   ³   ³           ÀÄÄÄexample
+³   ³   ³   ³   ³               ÀÄÄÄslurp_v0
+³   ³   ³   ³   ³                   ³   ComposableSingletons$MainActivityKt$lambda-1$1$1$1.dex
+³   ³   ³   ³   ³                   ³   ComposableSingletons$MainActivityKt$lambda-1$1.dex
+³   ³   ³   ³   ³                   ³   ComposableSingletons$MainActivityKt$lambda-2$1.dex
+³   ³   ³   ³   ³                   ³   ComposableSingletons$MainActivityKt$lambda-3$1.dex
+³   ³   ³   ³   ³                   ³   ComposableSingletons$MainActivityKt.dex
+³   ³   ³   ³   ³                   ³   MainActivity.dex
+³   ³   ³   ³   ³                   ³   MainActivityKt$MainScreen$1.dex
+³   ³   ³   ³   ³                   ³   MainActivityKt$MainScreen$2.dex
+³   ³   ³   ³   ³                   ³   MainActivityKt$MainScreen$3.dex
+³   ³   ³   ³   ³                   ³   MainActivityKt.dex
+³   ³   ³   ³   ³                   ³   SlurpApplication.dex
+³   ³   ³   ³   ³                   ³   
+³   ³   ³   ³   ³                   ÃÄÄÄdata
+³   ³   ³   ³   ³                   ³   ³   AuthRepository$sendEmailVerification$1.dex
+³   ³   ³   ³   ³                   ³   ³   AuthRepository$sendPasswordResetEmail$1.dex
+³   ³   ³   ³   ³                   ³   ³   AuthRepository$signIn$1.dex
+³   ³   ³   ³   ³                   ³   ³   AuthRepository$signUp$1.dex
+³   ³   ³   ³   ³                   ³   ³   AuthRepository.dex
+³   ³   ³   ³   ³                   ³   ³   AuthRepositoryKt.dex
+³   ³   ³   ³   ³                   ³   ³   AuthResult$Error.dex
+³   ³   ³   ³   ³                   ³   ³   AuthResult$Success.dex
+³   ³   ³   ³   ³                   ³   ³   AuthResult.dex
+³   ³   ³   ³   ³                   ³   ³   Delegation.dex
+³   ³   ³   ³   ³                   ³   ³   Governorate.dex
+³   ³   ³   ³   ³                   ³   ³   LocationData.dex
+³   ³   ³   ³   ³                   ³   ³   LocationRepository$getDelegationsForGovernorate$2.dex
+³   ³   ³   ³   ³                   ³   ³   LocationRepository$getGovernorateNames$2.dex
+³   ³   ³   ³   ³                   ³   ³   LocationRepository$loadLocationsIfNeeded$2.dex
+³   ³   ³   ³   ³                   ³   ³   LocationRepository.dex
+³   ³   ³   ³   ³                   ³   ³   Names.dex
+³   ³   ³   ³   ³                   ³   ³   RatingRepository$getActorsForSector$1.dex
+³   ³   ³   ³   ³                   ³   ³   RatingRepository$getAllRatings$1.dex
+³   ³   ³   ³   ³                   ³   ³   RatingRepository$getAverageByDimension$1.dex
+³   ³   ³   ³   ³                   ³   ³   RatingRepository$getGlobalAverageRating$1.dex
+³   ³   ³   ³   ³                   ³   ³   RatingRepository$getRecentRatings$1.dex
+³   ³   ³   ³   ³                   ³   ³   RatingRepository$getTopActors$$inlined$sortedByDescending$1.dex
+³   ³   ³   ³   ³                   ³   ³   RatingRepository$getTopActors$1.dex
+³   ³   ³   ³   ³                   ³   ³   RatingRepository$getUserAverageRating$1.dex
+³   ³   ³   ³   ³                   ³   ³   RatingRepository$getUserProfile$1.dex
+³   ³   ³   ³   ³                   ³   ³   RatingRepository$getUserRatings$1.dex
+³   ³   ³   ³   ³                   ³   ³   RatingRepository$getUserSectorAverages$1.dex
+³   ³   ³   ³   ³                   ³   ³   RatingRepository.dex
+³   ³   ³   ³   ³                   ³   ³   ResetPasswordResult$Error.dex
+³   ³   ³   ³   ³                   ³   ³   ResetPasswordResult$Success.dex
+³   ³   ³   ³   ³                   ³   ³   ResetPasswordResult.dex
+³   ³   ³   ³   ³                   ³   ³   
+³   ³   ³   ³   ³                   ³   ÃÄÄÄconstants
+³   ³   ³   ³   ³                   ³   ³       SectorConstants.dex
+³   ³   ³   ³   ³                   ³   ³       
+³   ³   ³   ³   ³                   ³   ÃÄÄÄmodel
+³   ³   ³   ³   ³                   ³   ³       Rating.dex
+³   ³   ³   ³   ³                   ³   ³       SectorConstants.dex
+³   ³   ³   ³   ³                   ³   ³       UserProfile.dex
+³   ³   ³   ³   ³                   ³   ³       
+³   ³   ³   ³   ³                   ³   ÀÄÄÄrepository
+³   ³   ³   ³   ³                   ³           RatingRepository$getActorsForSector$1.dex
+³   ³   ³   ³   ³                   ³           RatingRepository$getRatings$1.dex
+³   ³   ³   ³   ³                   ³           RatingRepository$submitRating$1.dex
+³   ³   ³   ³   ³                   ³           RatingRepository.dex
+³   ³   ³   ³   ³                   ³           
+³   ³   ³   ³   ³                   ÀÄÄÄui
+³   ³   ³   ³   ³                       ÃÄÄÄauth
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$1$1.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$2$1.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$3$1.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$3.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$4$1.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$4.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$5$1$1$1.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$5.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$6$1$1$1.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$6$1$2$1.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$6$1$3$1$1.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$6$1$3$2.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$6$1$3.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$6$1$4$1$1.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$6$1$4$2$1.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$6$1$5.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$6$1$6.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$6$1$7$1.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$6$1$8.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt$AuthScreen$7.dex
+³   ³   ³   ³   ³                       ³       AuthScreenKt.dex
+³   ³   ³   ³   ³                       ³       AuthState.dex
+³   ³   ³   ³   ³                       ³       AuthViewModel$sendPasswordResetEmail$1.dex
+³   ³   ³   ³   ³                       ³       AuthViewModel$signIn$1.dex
+³   ³   ³   ³   ³                       ³       AuthViewModel$signUp$1.dex
+³   ³   ³   ³   ³                       ³       AuthViewModel.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$AuthScreenKt$lambda-1$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$AuthScreenKt$lambda-2$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$AuthScreenKt$lambda-3$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$AuthScreenKt$lambda-4$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$AuthScreenKt$lambda-5$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$AuthScreenKt$lambda-6$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$AuthScreenKt$lambda-7$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$AuthScreenKt$lambda-8$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$AuthScreenKt$lambda-9$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$AuthScreenKt.dex
+³   ³   ³   ³   ³                       ³       
+³   ³   ³   ³   ³                       ÃÄÄÄcomponents
+³   ³   ³   ³   ³                       ³       BottomNavBarKt$BottomNavBar$1$1$1$1.dex
+³   ³   ³   ³   ³                       ³       BottomNavBarKt$BottomNavBar$1$1$1.dex
+³   ³   ³   ³   ³                       ³       BottomNavBarKt$BottomNavBar$1$1$2.dex
+³   ³   ³   ³   ³                       ³       BottomNavBarKt$BottomNavBar$1$1$3.dex
+³   ³   ³   ³   ³                       ³       BottomNavBarKt$BottomNavBar$1.dex
+³   ³   ³   ³   ³                       ³       BottomNavBarKt$BottomNavBar$2.dex
+³   ³   ³   ³   ³                       ³       BottomNavBarKt.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$RatingComponentsKt$lambda-1$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$RatingComponentsKt.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$CommentField$1.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$RadioSelector$1$1$1$1.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$RadioSelector$2.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$RatingBar$1$1$1$1.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$RatingBar$1$1$2.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$RatingBar$2.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$SelectorField$1$1.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$SelectorField$2$1.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$SelectorField$2$2.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$SelectorField$2$3$1.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$SelectorField$2$4$1$1.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$SelectorField$2$4$1$2$1.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$SelectorField$2$4.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$SelectorField$2.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt$SelectorField$3.dex
+³   ³   ³   ³   ³                       ³       RatingComponentsKt.dex
+³   ³   ³   ³   ³                       ³       
+³   ³   ³   ³   ³                       ÃÄÄÄdashboard
+³   ³   ³   ³   ³                       ³       ComposableSingletons$DashboardScreenKt$lambda-1$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$DashboardScreenKt$lambda-2$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$DashboardScreenKt$lambda-3$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$DashboardScreenKt.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$ChartCard$1$1$1.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$ChartCard$1$1$2.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$ChartCard$1.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$ChartCard$2.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$1$1$1.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$1$1.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$1.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$2$3$1$1.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$2$3$1$2.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$2$3$1$3.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$2$3$1$4.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$2$3$1$invoke$$inlined$items$default$1.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$2$3$1$invoke$$inlined$items$default$2.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$2$3$1$invoke$$inlined$items$default$3.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$2$3$1$invoke$$inlined$items$default$4.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$2$3$1.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$2.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$DashboardScreen$3.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$GlobalAverageCard$1.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$GlobalAverageCard$2.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$RatingCard$1.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$RatingCard$2.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$TopActorsCard$1$1$1$1$1$1.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$TopActorsCard$1.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt$TopActorsCard$2.dex
+³   ³   ³   ³   ³                       ³       DashboardScreenKt.dex
+³   ³   ³   ³   ³                       ³       DashboardState.dex
+³   ³   ³   ³   ³                       ³       DashboardViewModel$loadDashboardData$1$invokeSuspend$$inlined$sortedBy$1.dex
+³   ³   ³   ³   ³                       ³       DashboardViewModel$loadDashboardData$1$invokeSuspend$$inlined$sortedBy$2.dex
+³   ³   ³   ³   ³                       ³       DashboardViewModel$loadDashboardData$1.dex
+³   ³   ³   ³   ³                       ³       DashboardViewModel.dex
+³   ³   ³   ³   ³                       ³       
+³   ³   ³   ³   ³                       ÃÄÄÄexplore
+³   ³   ³   ³   ³                       ³       ComposableSingletons$ExploreDataScreenKt$lambda-1$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$ExploreDataScreenKt$lambda-2$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$ExploreDataScreenKt$lambda-3$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$ExploreDataScreenKt.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ChartCard$1$1$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ChartCard$1$1$2.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ChartCard$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ChartCard$2.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$DelegationTableCard$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$DelegationTableCard$2.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$1$1$1$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$1$1$2.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$1$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$2.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$3.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$4.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$5.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$6.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$7.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$8.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3$2.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3$3.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3$4.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2$3.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$2.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$ExploreDataScreen$3.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$FiltersSection$1$1$2$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$FiltersSection$1$1$3$1$1$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$FiltersSection$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$FiltersSection$2.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$MapCard$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt$MapCard$2.dex
+³   ³   ³   ³   ³                       ³       ExploreDataScreenKt.dex
+³   ³   ³   ³   ³                       ³       ExploreDataState.dex
+³   ³   ³   ³   ³                       ³       ExploreDataViewModel$refresh$1.dex
+³   ³   ³   ³   ³                       ³       ExploreDataViewModel.dex
+³   ³   ³   ³   ³                       ³       TimeRange.dex
+³   ³   ³   ³   ³                       ³       
+³   ³   ³   ³   ³                       ÃÄÄÄnavigation
+³   ³   ³   ³   ³                       ³       ComposableSingletons$NavGraphKt$lambda-1$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$NavGraphKt$lambda-2$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$NavGraphKt$lambda-3$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$NavGraphKt.dex
+³   ³   ³   ³   ³                       ³       NavGraphKt$NavGraph$1$1$1$1$1.dex
+³   ³   ³   ³   ³                       ³       NavGraphKt$NavGraph$1$1$1$1.dex
+³   ³   ³   ³   ³                       ³       NavGraphKt$NavGraph$1$1$1.dex
+³   ³   ³   ³   ³                       ³       NavGraphKt$NavGraph$1$1.dex
+³   ³   ³   ³   ³                       ³       NavGraphKt$NavGraph$1.dex
+³   ³   ³   ³   ³                       ³       NavGraphKt$NavGraph$2.dex
+³   ³   ³   ³   ³                       ³       NavGraphKt.dex
+³   ³   ³   ³   ³                       ³       Screen$Dashboard.dex
+³   ³   ³   ³   ³                       ³       Screen$ExploreData.dex
+³   ³   ³   ³   ³                       ³       Screen$Profile.dex
+³   ³   ³   ³   ³                       ³       Screen$SubmitRating.dex
+³   ³   ³   ³   ³                       ³       Screen.dex
+³   ³   ³   ³   ³                       ³       
+³   ³   ³   ³   ³                       ÃÄÄÄprofile
+³   ³   ³   ³   ³                       ³       ProfileState.dex
+³   ³   ³   ³   ³                       ³       ProfileViewModel$loadUserProfile$1.dex
+³   ³   ³   ³   ³                       ³       ProfileViewModel.dex
+³   ³   ³   ³   ³                       ³       
+³   ³   ³   ³   ³                       ÃÄÄÄsubmit
+³   ³   ³   ³   ³                       ³       ComposableSingletons$SubmitRatingScreenKt$lambda-1$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$SubmitRatingScreenKt$lambda-2$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$SubmitRatingScreenKt$lambda-3$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$SubmitRatingScreenKt$lambda-4$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$SubmitRatingScreenKt$lambda-5$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$SubmitRatingScreenKt$lambda-6$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$SubmitRatingScreenKt$lambda-7$1.dex
+³   ³   ³   ³   ³                       ³       ComposableSingletons$SubmitRatingScreenKt.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$2$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$1$1$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$1$1$2.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$2$1$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$2$1$2.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$2.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$3$1$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$3$1$2.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$3$1$3.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$3.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$4$1$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$4$1$2.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$4$1$3$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$4.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$5$1$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$5$1$2.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$5.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$6$1$1$2.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$6$1$1$3.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$6.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$7.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$4.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$5$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$5.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3$6.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$3.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$4.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt$SubmitRatingScreen$photoPickerLauncher$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingScreenKt.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingState.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingViewModel$loadActorsForSector$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingViewModel$loadDelegations$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingViewModel$loadGovernorates$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingViewModel$submitRating$1.dex
+³   ³   ³   ³   ³                       ³       SubmitRatingViewModel.dex
+³   ³   ³   ³   ³                       ³       
+³   ³   ³   ³   ³                       ÀÄÄÄtheme
+³   ³   ³   ³   ³                               ColorKt.dex
+³   ³   ³   ³   ³                               ThemeKt$SLURP_v0Theme$1.dex
+³   ³   ³   ³   ³                               ThemeKt.dex
+³   ³   ³   ³   ³                               TypeKt.dex
+³   ³   ³   ³   ³                               
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ³           ³   60b738c385775e6e47197b56a9390d3416304f0f3c648942e30f93d655fcbefb_0.jar
+³   ³   ³   ³           ³   60b738c385775e6e47197b56a9390d3416304f0f3c648942e30f93d655fcbefb_1.jar
+³   ³   ³   ³           ³   
+³   ³   ³   ³           ÀÄÄÄcom
+³   ³   ³   ³               ÀÄÄÄexample
+³   ³   ³   ³                   ÀÄÄÄslurp_v0
+³   ³   ³   ³                           ExampleInstrumentedTest.dex
+³   ³   ³   ³                           
+³   ³   ³   ÃÄÄÄruntime_symbol_list
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       R.txt
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           R.txt
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄsigning_config_versions
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       signing-config-versions.json
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           signing-config-versions.json
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄsource_set_path_map
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       file-map.txt
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           file-map.txt
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄstable_resource_ids_file
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       stableIds.txt
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           stableIds.txt
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄsub_project_dex_archive
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³   ÀÄÄÄout
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³       ÀÄÄÄout
+³   ³   ³   ÃÄÄÄsymbol_list_with_package_name
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ³       package-aware-r.txt
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ³           package-aware-r.txt
+³   ³   ³   ³           
+³   ³   ³   ÃÄÄÄtmp
+³   ³   ³   ³   ÀÄÄÄmanifest
+³   ³   ³   ³       ÀÄÄÄandroidTest
+³   ³   ³   ³           ÀÄÄÄdebug
+³   ³   ³   ÃÄÄÄvalidate_signing_config
+³   ³   ³   ³   ÃÄÄÄdebug
+³   ³   ³   ³   ÀÄÄÄdebugAndroidTest
+³   ³   ³   ÀÄÄÄvariant_model
+³   ³   ³       ÀÄÄÄdebug
+³   ³   ³               variant_model.json
+³   ³   ³               
+³   ³   ÃÄÄÄkotlin
+³   ³   ³   ÃÄÄÄcompileDebugAndroidTestKotlin
+³   ³   ³   ³   ÃÄÄÄcacheable
+³   ³   ³   ³   ³   ³   last-build.bin
+³   ³   ³   ³   ³   ³   
+³   ³   ³   ³   ³   ÀÄÄÄcaches-jvm
+³   ³   ³   ³   ³       ÃÄÄÄinputs
+³   ³   ³   ³   ³       ³       source-to-output.tab
+³   ³   ³   ³   ³       ³       source-to-output.tab.keystream
+³   ³   ³   ³   ³       ³       source-to-output.tab.keystream.len
+³   ³   ³   ³   ³       ³       source-to-output.tab.len
+³   ³   ³   ³   ³       ³       source-to-output.tab.values.at
+³   ³   ³   ³   ³       ³       source-to-output.tab_i
+³   ³   ³   ³   ³       ³       source-to-output.tab_i.len
+³   ³   ³   ³   ³       ³       
+³   ³   ³   ³   ³       ÃÄÄÄjvm
+³   ³   ³   ³   ³       ³   ÀÄÄÄkotlin
+³   ³   ³   ³   ³       ³           class-attributes.tab
+³   ³   ³   ³   ³       ³           class-attributes.tab.keystream
+³   ³   ³   ³   ³       ³           class-attributes.tab.keystream.len
+³   ³   ³   ³   ³       ³           class-attributes.tab.len
+³   ³   ³   ³   ³       ³           class-attributes.tab.values.at
+³   ³   ³   ³   ³       ³           class-attributes.tab_i
+³   ³   ³   ³   ³       ³           class-attributes.tab_i.len
+³   ³   ³   ³   ³       ³           class-fq-name-to-source.tab
+³   ³   ³   ³   ³       ³           class-fq-name-to-source.tab.keystream
+³   ³   ³   ³   ³       ³           class-fq-name-to-source.tab.keystream.len
+³   ³   ³   ³   ³       ³           class-fq-name-to-source.tab.len
+³   ³   ³   ³   ³       ³           class-fq-name-to-source.tab.values.at
+³   ³   ³   ³   ³       ³           class-fq-name-to-source.tab_i
+³   ³   ³   ³   ³       ³           class-fq-name-to-source.tab_i.len
+³   ³   ³   ³   ³       ³           internal-name-to-source.tab
+³   ³   ³   ³   ³       ³           internal-name-to-source.tab.keystream
+³   ³   ³   ³   ³       ³           internal-name-to-source.tab.keystream.len
+³   ³   ³   ³   ³       ³           internal-name-to-source.tab.len
+³   ³   ³   ³   ³       ³           internal-name-to-source.tab.values.at
+³   ³   ³   ³   ³       ³           internal-name-to-source.tab_i
+³   ³   ³   ³   ³       ³           internal-name-to-source.tab_i.len
+³   ³   ³   ³   ³       ³           proto.tab
+³   ³   ³   ³   ³       ³           proto.tab.keystream
+³   ³   ³   ³   ³       ³           proto.tab.keystream.len
+³   ³   ³   ³   ³       ³           proto.tab.len
+³   ³   ³   ³   ³       ³           proto.tab.values.at
+³   ³   ³   ³   ³       ³           proto.tab_i
+³   ³   ³   ³   ³       ³           proto.tab_i.len
+³   ³   ³   ³   ³       ³           source-to-classes.tab
+³   ³   ³   ³   ³       ³           source-to-classes.tab.keystream
+³   ³   ³   ³   ³       ³           source-to-classes.tab.keystream.len
+³   ³   ³   ³   ³       ³           source-to-classes.tab.len
+³   ³   ³   ³   ³       ³           source-to-classes.tab.values.at
+³   ³   ³   ³   ³       ³           source-to-classes.tab_i
+³   ³   ³   ³   ³       ³           source-to-classes.tab_i.len
+³   ³   ³   ³   ³       ³           
+³   ³   ³   ³   ³       ÀÄÄÄlookups
+³   ³   ³   ³   ³               counters.tab
+³   ³   ³   ³   ³               file-to-id.tab
+³   ³   ³   ³   ³               file-to-id.tab.keystream
+³   ³   ³   ³   ³               file-to-id.tab.keystream.len
+³   ³   ³   ³   ³               file-to-id.tab.len
+³   ³   ³   ³   ³               file-to-id.tab.values.at
+³   ³   ³   ³   ³               file-to-id.tab_i
+³   ³   ³   ³   ³               file-to-id.tab_i.len
+³   ³   ³   ³   ³               id-to-file.tab
+³   ³   ³   ³   ³               id-to-file.tab.keystream
+³   ³   ³   ³   ³               id-to-file.tab.keystream.len
+³   ³   ³   ³   ³               id-to-file.tab.len
+³   ³   ³   ³   ³               id-to-file.tab.values.at
+³   ³   ³   ³   ³               id-to-file.tab_i.len
+³   ³   ³   ³   ³               lookups.tab
+³   ³   ³   ³   ³               lookups.tab.keystream
+³   ³   ³   ³   ³               lookups.tab.keystream.len
+³   ³   ³   ³   ³               lookups.tab.len
+³   ³   ³   ³   ³               lookups.tab.values.at
+³   ³   ³   ³   ³               lookups.tab_i
+³   ³   ³   ³   ³               lookups.tab_i.len
+³   ³   ³   ³   ³               
+³   ³   ³   ³   ÃÄÄÄclasspath-snapshot
+³   ³   ³   ³   ³       shrunk-classpath-snapshot.bin
+³   ³   ³   ³   ³       
+³   ³   ³   ³   ÀÄÄÄlocal-state
+³   ³   ³   ³           build-history.bin
+³   ³   ³   ³           
+³   ³   ³   ÀÄÄÄcompileDebugKotlin
+³   ³   ³       ÃÄÄÄcacheable
+³   ³   ³       ³   ³   last-build.bin
+³   ³   ³       ³   ³   
+³   ³   ³       ³   ÀÄÄÄcaches-jvm
+³   ³   ³       ³       ÃÄÄÄinputs
+³   ³   ³       ³       ³       source-to-output.tab
+³   ³   ³       ³       ³       source-to-output.tab.keystream
+³   ³   ³       ³       ³       source-to-output.tab.keystream.len
+³   ³   ³       ³       ³       source-to-output.tab.len
+³   ³   ³       ³       ³       source-to-output.tab.values
+³   ³   ³       ³       ³       source-to-output.tab.values.at
+³   ³   ³       ³       ³       source-to-output.tab.values.s
+³   ³   ³       ³       ³       source-to-output.tab_i
+³   ³   ³       ³       ³       source-to-output.tab_i.len
+³   ³   ³       ³       ³       
+³   ³   ³       ³       ÃÄÄÄjvm
+³   ³   ³       ³       ³   ÀÄÄÄkotlin
+³   ³   ³       ³       ³           class-attributes.tab
+³   ³   ³       ³       ³           class-attributes.tab.keystream
+³   ³   ³       ³       ³           class-attributes.tab.keystream.len
+³   ³   ³       ³       ³           class-attributes.tab.len
+³   ³   ³       ³       ³           class-attributes.tab.values.at
+³   ³   ³       ³       ³           class-attributes.tab_i
+³   ³   ³       ³       ³           class-attributes.tab_i.len
+³   ³   ³       ³       ³           class-fq-name-to-source.tab
+³   ³   ³       ³       ³           class-fq-name-to-source.tab.keystream
+³   ³   ³       ³       ³           class-fq-name-to-source.tab.keystream.len
+³   ³   ³       ³       ³           class-fq-name-to-source.tab.len
+³   ³   ³       ³       ³           class-fq-name-to-source.tab.values.at
+³   ³   ³       ³       ³           class-fq-name-to-source.tab_i
+³   ³   ³       ³       ³           class-fq-name-to-source.tab_i.len
+³   ³   ³       ³       ³           internal-name-to-source.tab
+³   ³   ³       ³       ³           internal-name-to-source.tab.keystream
+³   ³   ³       ³       ³           internal-name-to-source.tab.keystream.len
+³   ³   ³       ³       ³           internal-name-to-source.tab.len
+³   ³   ³       ³       ³           internal-name-to-source.tab.values.at
+³   ³   ³       ³       ³           internal-name-to-source.tab_i
+³   ³   ³       ³       ³           internal-name-to-source.tab_i.len
+³   ³   ³       ³       ³           package-parts.tab
+³   ³   ³       ³       ³           package-parts.tab.keystream
+³   ³   ³       ³       ³           package-parts.tab.keystream.len
+³   ³   ³       ³       ³           package-parts.tab.len
+³   ³   ³       ³       ³           package-parts.tab.values.at
+³   ³   ³       ³       ³           package-parts.tab_i
+³   ³   ³       ³       ³           package-parts.tab_i.len
+³   ³   ³       ³       ³           proto.tab
+³   ³   ³       ³       ³           proto.tab.keystream
+³   ³   ³       ³       ³           proto.tab.keystream.len
+³   ³   ³       ³       ³           proto.tab.len
+³   ³   ³       ³       ³           proto.tab.values
+³   ³   ³       ³       ³           proto.tab.values.at
+³   ³   ³       ³       ³           proto.tab.values.s
+³   ³   ³       ³       ³           proto.tab_i
+³   ³   ³       ³       ³           proto.tab_i.len
+³   ³   ³       ³       ³           source-to-classes.tab
+³   ³   ³       ³       ³           source-to-classes.tab.keystream
+³   ³   ³       ³       ³           source-to-classes.tab.keystream.len
+³   ³   ³       ³       ³           source-to-classes.tab.len
+³   ³   ³       ³       ³           source-to-classes.tab.values.at
+³   ³   ³       ³       ³           source-to-classes.tab_i
+³   ³   ³       ³       ³           source-to-classes.tab_i.len
+³   ³   ³       ³       ³           subtypes.tab
+³   ³   ³       ³       ³           subtypes.tab.keystream
+³   ³   ³       ³       ³           subtypes.tab.keystream.len
+³   ³   ³       ³       ³           subtypes.tab.len
+³   ³   ³       ³       ³           subtypes.tab.values.at
+³   ³   ³       ³       ³           subtypes.tab_i
+³   ³   ³       ³       ³           subtypes.tab_i.len
+³   ³   ³       ³       ³           supertypes.tab
+³   ³   ³       ³       ³           supertypes.tab.keystream
+³   ³   ³       ³       ³           supertypes.tab.keystream.len
+³   ³   ³       ³       ³           supertypes.tab.len
+³   ³   ³       ³       ³           supertypes.tab.values.at
+³   ³   ³       ³       ³           supertypes.tab_i
+³   ³   ³       ³       ³           supertypes.tab_i.len
+³   ³   ³       ³       ³           
+³   ³   ³       ³       ÀÄÄÄlookups
+³   ³   ³       ³               counters.tab
+³   ³   ³       ³               file-to-id.tab
+³   ³   ³       ³               file-to-id.tab.keystream
+³   ³   ³       ³               file-to-id.tab.keystream.len
+³   ³   ³       ³               file-to-id.tab.len
+³   ³   ³       ³               file-to-id.tab.values.at
+³   ³   ³       ³               file-to-id.tab_i
+³   ³   ³       ³               file-to-id.tab_i.len
+³   ³   ³       ³               id-to-file.tab
+³   ³   ³       ³               id-to-file.tab.keystream
+³   ³   ³       ³               id-to-file.tab.keystream.len
+³   ³   ³       ³               id-to-file.tab.len
+³   ³   ³       ³               id-to-file.tab.values.at
+³   ³   ³       ³               id-to-file.tab_i
+³   ³   ³       ³               id-to-file.tab_i.len
+³   ³   ³       ³               lookups.tab
+³   ³   ³       ³               lookups.tab.keystream
+³   ³   ³       ³               lookups.tab.keystream.len
+³   ³   ³       ³               lookups.tab.len
+³   ³   ³       ³               lookups.tab.values
+³   ³   ³       ³               lookups.tab.values.at
+³   ³   ³       ³               lookups.tab.values.s
+³   ³   ³       ³               lookups.tab_i
+³   ³   ³       ³               lookups.tab_i.len
+³   ³   ³       ³               
+³   ³   ³       ÃÄÄÄclasspath-snapshot
+³   ³   ³       ³       shrunk-classpath-snapshot.bin
+³   ³   ³       ³       
+³   ³   ³       ÀÄÄÄlocal-state
+³   ³   ³               build-history.bin
+³   ³   ³               
+³   ³   ÃÄÄÄoutputs
+³   ³   ³   ÃÄÄÄapk
+³   ³   ³   ³   ÃÄÄÄandroidTest
+³   ³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³   ³           app-debug-androidTest.apk
+³   ³   ³   ³   ³           output-metadata.json
+³   ³   ³   ³   ³           
+³   ³   ³   ³   ÀÄÄÄdebug
+³   ³   ³   ³           app-debug.apk
+³   ³   ³   ³           output-metadata.json
+³   ³   ³   ³           
+³   ³   ³   ÀÄÄÄlogs
+³   ³   ³           manifest-merger-debug-report.txt
+³   ³   ³           
+³   ³   ÃÄÄÄsnapshot
+³   ³   ³   ÀÄÄÄkotlin
+³   ³   ÀÄÄÄtmp
+³   ³       ÀÄÄÄkotlin-classes
+³   ³           ÃÄÄÄdebug
+³   ³           ³   ÃÄÄÄcom
+³   ³           ³   ³   ÀÄÄÄexample
+³   ³           ³   ³       ÀÄÄÄslurp_v0
+³   ³           ³   ³           ³   ComposableSingletons$MainActivityKt$lambda-1$1$1$1.class
+³   ³           ³   ³           ³   ComposableSingletons$MainActivityKt$lambda-1$1.class
+³   ³           ³   ³           ³   ComposableSingletons$MainActivityKt$lambda-2$1.class
+³   ³           ³   ³           ³   ComposableSingletons$MainActivityKt$lambda-3$1.class
+³   ³           ³   ³           ³   ComposableSingletons$MainActivityKt.class
+³   ³           ³   ³           ³   MainActivity.class
+³   ³           ³   ³           ³   MainActivityKt$MainScreen$1.class
+³   ³           ³   ³           ³   MainActivityKt$MainScreen$2.class
+³   ³           ³   ³           ³   MainActivityKt$MainScreen$3.class
+³   ³           ³   ³           ³   MainActivityKt.class
+³   ³           ³   ³           ³   SlurpApplication.class
+³   ³           ³   ³           ³   
+³   ³           ³   ³           ÃÄÄÄdata
+³   ³           ³   ³           ³   ³   AuthRepository$sendEmailVerification$1.class
+³   ³           ³   ³           ³   ³   AuthRepository$sendPasswordResetEmail$1.class
+³   ³           ³   ³           ³   ³   AuthRepository$signIn$1.class
+³   ³           ³   ³           ³   ³   AuthRepository$signUp$1.class
+³   ³           ³   ³           ³   ³   AuthRepository.class
+³   ³           ³   ³           ³   ³   AuthRepositoryKt.class
+³   ³           ³   ³           ³   ³   AuthResult$Error.class
+³   ³           ³   ³           ³   ³   AuthResult$Success.class
+³   ³           ³   ³           ³   ³   AuthResult.class
+³   ³           ³   ³           ³   ³   Delegation.class
+³   ³           ³   ³           ³   ³   Governorate.class
+³   ³           ³   ³           ³   ³   LocationData.class
+³   ³           ³   ³           ³   ³   LocationRepository$getDelegationsForGovernorate$2.class
+³   ³           ³   ³           ³   ³   LocationRepository$getGovernorateNames$2.class
+³   ³           ³   ³           ³   ³   LocationRepository$loadLocationsIfNeeded$2.class
+³   ³           ³   ³           ³   ³   LocationRepository.class
+³   ³           ³   ³           ³   ³   Names.class
+³   ³           ³   ³           ³   ³   RatingRepository$getActorsForSector$1.class
+³   ³           ³   ³           ³   ³   RatingRepository$getAllRatings$1.class
+³   ³           ³   ³           ³   ³   RatingRepository$getAverageByDimension$1.class
+³   ³           ³   ³           ³   ³   RatingRepository$getGlobalAverageRating$1.class
+³   ³           ³   ³           ³   ³   RatingRepository$getRecentRatings$1.class
+³   ³           ³   ³           ³   ³   RatingRepository$getTopActors$$inlined$sortedByDescending$1.class
+³   ³           ³   ³           ³   ³   RatingRepository$getTopActors$1.class
+³   ³           ³   ³           ³   ³   RatingRepository$getUserAverageRating$1.class
+³   ³           ³   ³           ³   ³   RatingRepository$getUserProfile$1.class
+³   ³           ³   ³           ³   ³   RatingRepository$getUserRatings$1.class
+³   ³           ³   ³           ³   ³   RatingRepository$getUserSectorAverages$1.class
+³   ³           ³   ³           ³   ³   RatingRepository.class
+³   ³           ³   ³           ³   ³   ResetPasswordResult$Error.class
+³   ³           ³   ³           ³   ³   ResetPasswordResult$Success.class
+³   ³           ³   ³           ³   ³   ResetPasswordResult.class
+³   ³           ³   ³           ³   ³   
+³   ³           ³   ³           ³   ÃÄÄÄconstants
+³   ³           ³   ³           ³   ³       SectorConstants.class
+³   ³           ³   ³           ³   ³       
+³   ³           ³   ³           ³   ÃÄÄÄmodel
+³   ³           ³   ³           ³   ³       Rating.class
+³   ³           ³   ³           ³   ³       SectorConstants.class
+³   ³           ³   ³           ³   ³       UserProfile.class
+³   ³           ³   ³           ³   ³       
+³   ³           ³   ³           ³   ÀÄÄÄrepository
+³   ³           ³   ³           ³           RatingRepository$getActorsForSector$1.class
+³   ³           ³   ³           ³           RatingRepository$getRatings$1.class
+³   ³           ³   ³           ³           RatingRepository$submitRating$1.class
+³   ³           ³   ³           ³           RatingRepository.class
+³   ³           ³   ³           ³           
+³   ³           ³   ³           ÀÄÄÄui
+³   ³           ³   ³               ÃÄÄÄauth
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$1$1.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$2$1.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$3$1.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$3.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$4$1.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$4.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$5$1$1$1.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$5.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$6$1$1$1.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$6$1$2$1.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$6$1$3$1$1.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$6$1$3$2.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$6$1$3.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$6$1$4$1$1.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$6$1$4$2$1.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$6$1$5.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$6$1$6.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$6$1$7$1.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$6$1$8.class
+³   ³           ³   ³               ³       AuthScreenKt$AuthScreen$7.class
+³   ³           ³   ³               ³       AuthScreenKt.class
+³   ³           ³   ³               ³       AuthState.class
+³   ³           ³   ³               ³       AuthViewModel$sendPasswordResetEmail$1.class
+³   ³           ³   ³               ³       AuthViewModel$signIn$1.class
+³   ³           ³   ³               ³       AuthViewModel$signUp$1.class
+³   ³           ³   ³               ³       AuthViewModel.class
+³   ³           ³   ³               ³       ComposableSingletons$AuthScreenKt$lambda-1$1.class
+³   ³           ³   ³               ³       ComposableSingletons$AuthScreenKt$lambda-2$1.class
+³   ³           ³   ³               ³       ComposableSingletons$AuthScreenKt$lambda-3$1.class
+³   ³           ³   ³               ³       ComposableSingletons$AuthScreenKt$lambda-4$1.class
+³   ³           ³   ³               ³       ComposableSingletons$AuthScreenKt$lambda-5$1.class
+³   ³           ³   ³               ³       ComposableSingletons$AuthScreenKt$lambda-6$1.class
+³   ³           ³   ³               ³       ComposableSingletons$AuthScreenKt$lambda-7$1.class
+³   ³           ³   ³               ³       ComposableSingletons$AuthScreenKt$lambda-8$1.class
+³   ³           ³   ³               ³       ComposableSingletons$AuthScreenKt$lambda-9$1.class
+³   ³           ³   ³               ³       ComposableSingletons$AuthScreenKt.class
+³   ³           ³   ³               ³       
+³   ³           ³   ³               ÃÄÄÄcomponents
+³   ³           ³   ³               ³       BottomNavBarKt$BottomNavBar$1$1$1$1.class
+³   ³           ³   ³               ³       BottomNavBarKt$BottomNavBar$1$1$1.class
+³   ³           ³   ³               ³       BottomNavBarKt$BottomNavBar$1$1$2.class
+³   ³           ³   ³               ³       BottomNavBarKt$BottomNavBar$1$1$3.class
+³   ³           ³   ³               ³       BottomNavBarKt$BottomNavBar$1.class
+³   ³           ³   ³               ³       BottomNavBarKt$BottomNavBar$2.class
+³   ³           ³   ³               ³       BottomNavBarKt.class
+³   ³           ³   ³               ³       ComposableSingletons$RatingComponentsKt$lambda-1$1.class
+³   ³           ³   ³               ³       ComposableSingletons$RatingComponentsKt.class
+³   ³           ³   ³               ³       RatingComponentsKt$CommentField$1.class
+³   ³           ³   ³               ³       RatingComponentsKt$RadioSelector$1$1$1$1.class
+³   ³           ³   ³               ³       RatingComponentsKt$RadioSelector$2.class
+³   ³           ³   ³               ³       RatingComponentsKt$RatingBar$1$1$1$1.class
+³   ³           ³   ³               ³       RatingComponentsKt$RatingBar$1$1$2.class
+³   ³           ³   ³               ³       RatingComponentsKt$RatingBar$2.class
+³   ³           ³   ³               ³       RatingComponentsKt$SelectorField$1$1.class
+³   ³           ³   ³               ³       RatingComponentsKt$SelectorField$2$1.class
+³   ³           ³   ³               ³       RatingComponentsKt$SelectorField$2$2.class
+³   ³           ³   ³               ³       RatingComponentsKt$SelectorField$2$3$1.class
+³   ³           ³   ³               ³       RatingComponentsKt$SelectorField$2$4$1$1.class
+³   ³           ³   ³               ³       RatingComponentsKt$SelectorField$2$4$1$2$1.class
+³   ³           ³   ³               ³       RatingComponentsKt$SelectorField$2$4.class
+³   ³           ³   ³               ³       RatingComponentsKt$SelectorField$2.class
+³   ³           ³   ³               ³       RatingComponentsKt$SelectorField$3.class
+³   ³           ³   ³               ³       RatingComponentsKt.class
+³   ³           ³   ³               ³       
+³   ³           ³   ³               ÃÄÄÄdashboard
+³   ³           ³   ³               ³       ComposableSingletons$DashboardScreenKt$lambda-1$1.class
+³   ³           ³   ³               ³       ComposableSingletons$DashboardScreenKt$lambda-2$1.class
+³   ³           ³   ³               ³       ComposableSingletons$DashboardScreenKt$lambda-3$1.class
+³   ³           ³   ³               ³       ComposableSingletons$DashboardScreenKt.class
+³   ³           ³   ³               ³       DashboardScreenKt$ChartCard$1$1$1.class
+³   ³           ³   ³               ³       DashboardScreenKt$ChartCard$1$1$2.class
+³   ³           ³   ³               ³       DashboardScreenKt$ChartCard$1.class
+³   ³           ³   ³               ³       DashboardScreenKt$ChartCard$2.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$1$1$1.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$1$1.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$1.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$2$3$1$1.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$2$3$1$2.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$2$3$1$3.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$2$3$1$4.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$2$3$1$invoke$$inlined$items$default$1.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$2$3$1$invoke$$inlined$items$default$2.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$2$3$1$invoke$$inlined$items$default$3.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$2$3$1$invoke$$inlined$items$default$4.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$2$3$1.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$2.class
+³   ³           ³   ³               ³       DashboardScreenKt$DashboardScreen$3.class
+³   ³           ³   ³               ³       DashboardScreenKt$GlobalAverageCard$1.class
+³   ³           ³   ³               ³       DashboardScreenKt$GlobalAverageCard$2.class
+³   ³           ³   ³               ³       DashboardScreenKt$RatingCard$1.class
+³   ³           ³   ³               ³       DashboardScreenKt$RatingCard$2.class
+³   ³           ³   ³               ³       DashboardScreenKt$TopActorsCard$1$1$1$1$1$1.class
+³   ³           ³   ³               ³       DashboardScreenKt$TopActorsCard$1.class
+³   ³           ³   ³               ³       DashboardScreenKt$TopActorsCard$2.class
+³   ³           ³   ³               ³       DashboardScreenKt.class
+³   ³           ³   ³               ³       DashboardState.class
+³   ³           ³   ³               ³       DashboardViewModel$loadDashboardData$1$invokeSuspend$$inlined$sortedBy$1.class
+³   ³           ³   ³               ³       DashboardViewModel$loadDashboardData$1$invokeSuspend$$inlined$sortedBy$2.class
+³   ³           ³   ³               ³       DashboardViewModel$loadDashboardData$1.class
+³   ³           ³   ³               ³       DashboardViewModel.class
+³   ³           ³   ³               ³       
+³   ³           ³   ³               ÃÄÄÄexplore
+³   ³           ³   ³               ³       ComposableSingletons$ExploreDataScreenKt$lambda-1$1.class
+³   ³           ³   ³               ³       ComposableSingletons$ExploreDataScreenKt$lambda-2$1.class
+³   ³           ³   ³               ³       ComposableSingletons$ExploreDataScreenKt$lambda-3$1.class
+³   ³           ³   ³               ³       ComposableSingletons$ExploreDataScreenKt.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ChartCard$1$1$1.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ChartCard$1$1$2.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ChartCard$1.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ChartCard$2.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$DelegationTableCard$1.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$DelegationTableCard$2.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$1$1$1$1.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$1$1$2.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$1$1.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$1.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$1.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$2.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$3.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$4.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$5.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$6.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$7.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1$8.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3$1.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3$2.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3$3.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3$4.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2$3.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$2.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$ExploreDataScreen$3.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$FiltersSection$1$1$2$1.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$FiltersSection$1$1$3$1$1$1.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$FiltersSection$1.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$FiltersSection$2.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$MapCard$1.class
+³   ³           ³   ³               ³       ExploreDataScreenKt$MapCard$2.class
+³   ³           ³   ³               ³       ExploreDataScreenKt.class
+³   ³           ³   ³               ³       ExploreDataState.class
+³   ³           ³   ³               ³       ExploreDataViewModel$refresh$1.class
+³   ³           ³   ³               ³       ExploreDataViewModel.class
+³   ³           ³   ³               ³       TimeRange.class
+³   ³           ³   ³               ³       
+³   ³           ³   ³               ÃÄÄÄnavigation
+³   ³           ³   ³               ³       ComposableSingletons$NavGraphKt$lambda-1$1.class
+³   ³           ³   ³               ³       ComposableSingletons$NavGraphKt$lambda-2$1.class
+³   ³           ³   ³               ³       ComposableSingletons$NavGraphKt$lambda-3$1.class
+³   ³           ³   ³               ³       ComposableSingletons$NavGraphKt.class
+³   ³           ³   ³               ³       NavGraphKt$NavGraph$1$1$1$1$1.class
+³   ³           ³   ³               ³       NavGraphKt$NavGraph$1$1$1$1.class
+³   ³           ³   ³               ³       NavGraphKt$NavGraph$1$1$1.class
+³   ³           ³   ³               ³       NavGraphKt$NavGraph$1$1.class
+³   ³           ³   ³               ³       NavGraphKt$NavGraph$1.class
+³   ³           ³   ³               ³       NavGraphKt$NavGraph$2.class
+³   ³           ³   ³               ³       NavGraphKt.class
+³   ³           ³   ³               ³       Screen$Dashboard.class
+³   ³           ³   ³               ³       Screen$ExploreData.class
+³   ³           ³   ³               ³       Screen$Profile.class
+³   ³           ³   ³               ³       Screen$SubmitRating.class
+³   ³           ³   ³               ³       Screen.class
+³   ³           ³   ³               ³       
+³   ³           ³   ³               ÃÄÄÄprofile
+³   ³           ³   ³               ³       ProfileState.class
+³   ³           ³   ³               ³       ProfileViewModel$loadUserProfile$1.class
+³   ³           ³   ³               ³       ProfileViewModel.class
+³   ³           ³   ³               ³       
+³   ³           ³   ³               ÃÄÄÄsubmit
+³   ³           ³   ³               ³       ComposableSingletons$SubmitRatingScreenKt$lambda-1$1.class
+³   ³           ³   ³               ³       ComposableSingletons$SubmitRatingScreenKt$lambda-2$1.class
+³   ³           ³   ³               ³       ComposableSingletons$SubmitRatingScreenKt$lambda-3$1.class
+³   ³           ³   ³               ³       ComposableSingletons$SubmitRatingScreenKt$lambda-4$1.class
+³   ³           ³   ³               ³       ComposableSingletons$SubmitRatingScreenKt$lambda-5$1.class
+³   ³           ³   ³               ³       ComposableSingletons$SubmitRatingScreenKt$lambda-6$1.class
+³   ³           ³   ³               ³       ComposableSingletons$SubmitRatingScreenKt$lambda-7$1.class
+³   ³           ³   ³               ³       ComposableSingletons$SubmitRatingScreenKt.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$1.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$2$1.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$1$1$1.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$1$1$2.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$1.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$2$1$1.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$2$1$2.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$2.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$3$1$1.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$3$1$2.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$3$1$3.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$3.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$4$1$1.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$4$1$2.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$4$1$3$1.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$4.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$5$1$1.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$5$1$2.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$5.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$6$1$1$2.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$6$1$1$3.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$6.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$3$7.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$4.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$5$1.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$5.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3$6.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$3.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$4.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt$SubmitRatingScreen$photoPickerLauncher$1.class
+³   ³           ³   ³               ³       SubmitRatingScreenKt.class
+³   ³           ³   ³               ³       SubmitRatingState.class
+³   ³           ³   ³               ³       SubmitRatingViewModel$loadActorsForSector$1.class
+³   ³           ³   ³               ³       SubmitRatingViewModel$loadDelegations$1.class
+³   ³           ³   ³               ³       SubmitRatingViewModel$loadGovernorates$1.class
+³   ³           ³   ³               ³       SubmitRatingViewModel$submitRating$1.class
+³   ³           ³   ³               ³       SubmitRatingViewModel.class
+³   ³           ³   ³               ³       
+³   ³           ³   ³               ÀÄÄÄtheme
+³   ³           ³   ³                       ColorKt.class
+³   ³           ³   ³                       ThemeKt$SLURP_v0Theme$1.class
+³   ³           ³   ³                       ThemeKt.class
+³   ³           ³   ³                       TypeKt.class
+³   ³           ³   ³                       
+³   ³           ³   ÀÄÄÄMETA-INF
+³   ³           ³           app_debug.kotlin_module
+³   ³           ³           
+³   ³           ÀÄÄÄdebugAndroidTest
+³   ³               ÃÄÄÄcom
+³   ³               ³   ÀÄÄÄexample
+³   ³               ³       ÀÄÄÄslurp_v0
+³   ³               ³               ExampleInstrumentedTest.class
+³   ³               ³               
+³   ³               ÀÄÄÄMETA-INF
+³   ³                       app_debugAndroidTest.kotlin_module
+³   ³                       
+³   ÀÄÄÄsrc
+³       ÃÄÄÄandroidTest
+³       ³   ÀÄÄÄjava
+³       ³       ÀÄÄÄcom
+³       ³           ÀÄÄÄexample
+³       ³               ÀÄÄÄslurp_v0
+³       ³                       ExampleInstrumentedTest.kt
+³       ³                       
+³       ÃÄÄÄmain
+³       ³   ³   AndroidManifest.xml
+³       ³   ³   
+³       ³   ÃÄÄÄassets
+³       ³   ³   ÀÄÄÄdata
+³       ³   ³           locations.json
+³       ³   ³           
+³       ³   ÃÄÄÄjava
+³       ³   ³   ÀÄÄÄcom
+³       ³   ³       ÀÄÄÄexample
+³       ³   ³           ÀÄÄÄslurp_v0
+³       ³   ³               ³   MainActivity.kt
+³       ³   ³               ³   SlurpApplication.kt
+³       ³   ³               ³   
+³       ³   ³               ÃÄÄÄdata
+³       ³   ³               ³   ³   AuthRepository.kt
+³       ³   ³               ³   ³   LocationRepository.kt
+³       ³   ³               ³   ³   RatingRepository.kt
+³       ³   ³               ³   ³   
+³       ³   ³               ³   ÃÄÄÄconstants
+³       ³   ³               ³   ³       SectorConstants.kt
+³       ³   ³               ³   ³       
+³       ³   ³               ³   ÃÄÄÄmodel
+³       ³   ³               ³   ³       Rating.kt
+³       ³   ³               ³   ³       SectorConstants.kt
+³       ³   ³               ³   ³       UserProfile.kt
+³       ³   ³               ³   ³       
+³       ³   ³               ³   ÀÄÄÄrepository
+³       ³   ³               ³           RatingRepository.kt
+³       ³   ³               ³           
+³       ³   ³               ÀÄÄÄui
+³       ³   ³                   ÃÄÄÄauth
+³       ³   ³                   ³       AuthScreen.kt
+³       ³   ³                   ³       AuthViewModel.kt
+³       ³   ³                   ³       
+³       ³   ³                   ÃÄÄÄcomponents
+³       ³   ³                   ³       BottomNavBar.kt
+³       ³   ³                   ³       RatingComponents.kt
+³       ³   ³                   ³       
+³       ³   ³                   ÃÄÄÄdashboard
+³       ³   ³                   ³       DashboardScreen.kt
+³       ³   ³                   ³       DashboardViewModel.kt
+³       ³   ³                   ³       
+³       ³   ³                   ÃÄÄÄexplore
+³       ³   ³                   ³       ExploreDataScreen.kt
+³       ³   ³                   ³       ExploreDataState.kt
+³       ³   ³                   ³       ExploreDataViewModel.kt
+³       ³   ³                   ³       
+³       ³   ³                   ÃÄÄÄnavigation
+³       ³   ³                   ³       NavGraph.kt
+³       ³   ³                   ³       
+³       ³   ³                   ÃÄÄÄprofile
+³       ³   ³                   ³       ProfileViewModel.kt
+³       ³   ³                   ³       
+³       ³   ³                   ÃÄÄÄsubmit
+³       ³   ³                   ³       SubmitRatingScreen.kt
+³       ³   ³                   ³       SubmitRatingViewModel.kt
+³       ³   ³                   ³       
+³       ³   ³                   ÀÄÄÄtheme
+³       ³   ³                           Color.kt
+³       ³   ³                           Theme.kt
+³       ³   ³                           Type.kt
+³       ³   ³                           
+³       ³   ÀÄÄÄres
+³       ³       ÃÄÄÄdrawable
+³       ³       ³       ic_launcher_background.xml
+³       ³       ³       ic_launcher_foreground.xml
+³       ³       ³       tunisia_map.png
+³       ³       ³       tunisia_map_with_labels.png
+³       ³       ³       
+³       ³       ÃÄÄÄmipmap-anydpi-v26
+³       ³       ³       ic_launcher.xml
+³       ³       ³       ic_launcher_round.xml
+³       ³       ³       
+³       ³       ÃÄÄÄmipmap-hdpi
+³       ³       ³       ic_launcher.webp
+³       ³       ³       ic_launcher_round.webp
+³       ³       ³       
+³       ³       ÃÄÄÄmipmap-mdpi
+³       ³       ³       ic_launcher.webp
+³       ³       ³       ic_launcher_round.webp
+³       ³       ³       
+³       ³       ÃÄÄÄmipmap-xhdpi
+³       ³       ³       ic_launcher.webp
+³       ³       ³       ic_launcher_round.webp
+³       ³       ³       
+³       ³       ÃÄÄÄmipmap-xxhdpi
+³       ³       ³       ic_launcher.webp
+³       ³       ³       ic_launcher_round.webp
+³       ³       ³       
+³       ³       ÃÄÄÄmipmap-xxxhdpi
+³       ³       ³       ic_launcher.webp
+³       ³       ³       ic_launcher_round.webp
+³       ³       ³       
+³       ³       ÃÄÄÄvalues
+³       ³       ³       colors.xml
+³       ³       ³       strings.xml
+³       ³       ³       themes.xml
+³       ³       ³       
+³       ³       ÀÄÄÄxml
+³       ³               backup_rules.xml
+³       ³               data_extraction_rules.xml
+³       ³               
+³       ÀÄÄÄtest
+³           ÀÄÄÄjava
+³               ÀÄÄÄcom
+³                   ÀÄÄÄexample
+³                       ÀÄÄÄslurp_v0
+³                               ExampleUnitTest.kt
+³                               
+ÃÄÄÄassets
+³   ÀÄÄÄdata
+³           locations.json
+³           
+ÃÄÄÄbuild
+³   ÀÄÄÄreports
+³       ÀÄÄÄproblems
+³               problems-report.html
+³               
+ÀÄÄÄgradle
+    ³   libs.versions.toml
+    ³   
+    ÀÄÄÄwrapper
+            gradle-wrapper.jar
+            gradle-wrapper.properties
+            

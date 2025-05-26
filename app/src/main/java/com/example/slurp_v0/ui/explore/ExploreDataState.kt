@@ -20,6 +20,7 @@ data class ExploreDataState(
     val availableDelegations: List<String> = emptyList(),
     val availableMacroSectors: List<String> = emptyList(),
     val availableMesoSectors: List<String> = emptyList(),
+    val availableIndicatorCategories: List<String> = emptyList(),
     val availableIndicatorTypes: List<String> = emptyList(),
     
     // Data
