@@ -36,7 +36,7 @@ class ExploreDataViewModel(application: Application) : AndroidViewModel(applicat
                         isLoading = false,
                         availableGovernorates = allRatings.map { it.governorate }.distinct().sorted(),
                         availableMacroSectors = SectorConstants.MACRO_SECTORS.keys.toList(),
-                        availableIndicatorTypes = SectorConstants.INDICATORS.keys.toList()
+                        availableIndicatorCategories = SectorConstants.INDICATORS.keys.toList()
                     )
                 }
             } catch (e: Exception) {
