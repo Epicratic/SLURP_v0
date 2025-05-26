@@ -8,5 +8,6 @@ data class UserProfile(
     val averageRating: Double = 0.0,
     val sectorAverages: Map<String, Double> = emptyMap(),
     val lastActive: Long = System.currentTimeMillis(),
+    val registrationDate: Long = 0L, // new field, store as timestamp millis
     val isEmailVerified: Boolean = false
 ) 

@@ -112,4 +112,12 @@ class RatingRepository {
             .mapNotNull { it.getString("actorName") }
             .distinct()
     }
-} 
+
+    // New function to get all user profiles
+    suspend fun getAllUserProfiles(): List<UserProfile> {
+        return usersCollection
+            .get()
+            .await()
+            .toObjects(UserProfile::class.java)
+    }
+}
