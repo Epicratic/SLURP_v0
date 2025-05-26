@@ -1,5 +1,7 @@
 package com.example.slurp_v0.ui.explore
 
+import com.example.slurp_v0.data.model.Rating
+
 data class ExploreDataState(
     val isLoading: Boolean = false,
     val error: String? = null,
@@ -25,7 +27,8 @@ data class ExploreDataState(
     
     // Data
     val delegationAverages: Map<String, Double> = emptyMap(),
-    val mapData: Map<String, Double> = emptyMap()
+    val mapData: Map<String, Double> = emptyMap(),
+    val filteredRatings: List<Rating> = emptyList()
 )
 
 enum class TimeRange(val label: String, val days: Int?) {

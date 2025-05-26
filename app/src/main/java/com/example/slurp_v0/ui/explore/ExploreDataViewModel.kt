@@ -102,7 +102,8 @@ class ExploreDataViewModel(application: Application) : AndroidViewModel(applicat
         // Update state with filtered data
         _state.update { it.copy(
             delegationAverages = delegationAverages,
-            mapData = mapData
+            mapData = mapData,
+            filteredRatings = filteredRatings
         ) }
     }
 

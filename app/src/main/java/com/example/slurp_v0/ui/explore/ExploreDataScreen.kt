@@ -116,11 +116,12 @@ fun ExploreDataScreen(
                 // Chart View
                 item {
                     ChartCard(
-                        title = "Rating Distribution",
-                        data = state.delegationAverages,
+                        title = "Territorial Performance by Sector",
+                        filteredRatings = state.filteredRatings, // Nouveau paramètre nécessaire
+                        selectedGovernorate = state.selectedGovernorate,
                         modifier = Modifier
                             .fillMaxWidth()
-                            .height(300.dp)
+                            .height(400.dp)
                     )
                 }
 
@@ -269,7 +270,7 @@ fun DelegationTableCard(
                 .padding(16.dp)
         ) {
             Text(
-                "Delegation Ratings",
+                "Delegations Ratings Table",
                 style = MaterialTheme.typography.titleMedium,
                 modifier = Modifier.padding(bottom = 16.dp)
             )
@@ -468,7 +469,8 @@ private fun getGovernoratePosition(governorate: String): PaddingValues {
 @Composable
 fun ChartCard(
     title: String,
-    data: Map<String, Double>,
+    filteredRatings: List<Rating>,
+    selectedGovernorate: String,
     modifier: Modifier = Modifier
 ) {
     Card(modifier = modifier) {
@@ -483,58 +485,71 @@ fun ChartCard(
                 modifier = Modifier.padding(bottom = 8.dp)
             )
 
-            val primaryColor = MaterialTheme.colorScheme.primary.toArgb()
             val context = LocalContext.current
+            val sectorLabels = SectorConstants.MACRO_SECTORS.keys.toList()
 
             AndroidView(
-                factory = { context ->
+                factory = {
                     LineChart(context).apply {
                         description.isEnabled = false
                         setDrawGridBackground(false)
                         setPinchZoom(false)
                         setScaleEnabled(true)
                         legend.isEnabled = true
-                        
+
                         xAxis.apply {
                             position = XAxis.XAxisPosition.BOTTOM
                             setDrawGridLines(false)
                             granularity = 1f
-                            valueFormatter = IndexAxisValueFormatter(SectorConstants.MACRO_SECTORS.keys.toList())
+                            valueFormatter = IndexAxisValueFormatter(sectorLabels)
                             labelRotationAngle = -45f
+                            labelCount = sectorLabels.size
                         }
-                        
+
                         axisLeft.apply {
                             axisMinimum = 0f
                             axisMaximum = 5f
                             granularity = 1f
                             setDrawGridLines(true)
                         }
-                        
+
                         axisRight.isEnabled = false
                     }
                 },
                 modifier = Modifier.fillMaxSize(),
                 update = { chart ->
-                    // Group data by governorate and create a line for each
-                    val dataSets = data.entries.groupBy { it.key.split(" - ")[0] }
-                        .map { (governorate, entries) ->
-                            val dataPoints = entries.mapIndexed { index, entry ->
-                                Entry(index.toFloat(), entry.value.toFloat())
-                            }
-                            
-                            LineDataSet(dataPoints, governorate).apply {
-                                color = Color(Random().nextInt()).toArgb()
-                                setDrawValues(false)
-                                setDrawCircles(true)
-                                lineWidth = 2f
-                                setMode(LineDataSet.Mode.LINEAR)
-                            }
+                    val ratingsInGovernorate = filteredRatings.filter {
+                        it.governorate == selectedGovernorate
+                    }
+
+                    val delegationSectorAverages = ratingsInGovernorate
+                        .groupBy { it.delegation }
+                        .mapValues { (_, ratings) ->
+                            ratings.groupBy { it.macroSector }
+                                .mapValues { (_, sectorRatings) ->
+                                    sectorRatings.map { it.rating.toDouble() }.average()
+                                }
                         }
-                    
+
+                    val dataSets = delegationSectorAverages.map { (delegation, sectorMap) ->
+                        val dataPoints = sectorLabels.mapIndexed { index, sector ->
+                            val avg = sectorMap[sector] ?: 0.0
+                            Entry(index.toFloat(), avg.toFloat())
+                        }
+
+                        LineDataSet(dataPoints, delegation).apply {
+                            color = Color(Random().nextInt()).toArgb()
+                            setDrawValues(false)
+                            setDrawCircles(true)
+                            lineWidth = 2f
+                            setMode(LineDataSet.Mode.LINEAR)
+                        }
+                    }
+
                     chart.data = LineData(dataSets)
                     chart.invalidate()
                 }
             )
         }
     }
-} 
+}
