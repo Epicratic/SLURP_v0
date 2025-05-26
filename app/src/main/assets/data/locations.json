@@ -1,0 +1,458 @@
+{
+    "version": "1.0",
+    "lastUpdated": "2024-03-19",
+    "governorates": [
+        {
+            "id": "gov_01",
+            "name": {
+                "fr": "Ariana"
+            },
+            "delegations": [
+                {"id": "del_01_01", "name": {"fr": "Ariana Ville"}},
+                {"id": "del_01_02", "name": {"fr": "Ettadhamen"}},
+                {"id": "del_01_03", "name": {"fr": "Kalâat el-Andalous"}},
+                {"id": "del_01_04", "name": {"fr": "La Soukra"}},
+                {"id": "del_01_05", "name": {"fr": "Mnihla"}},
+                {"id": "del_01_06", "name": {"fr": "Raoued"}},
+                {"id": "del_01_07", "name": {"fr": "Sidi Thabet"}}
+            ]
+        },
+        {
+            "id": "gov_02",
+            "name": {
+                "fr": "Béja"
+            },
+            "delegations": [
+                {"id": "del_02_01", "name": {"fr": "Amdoun"}},
+                {"id": "del_02_02", "name": {"fr": "Béja Nord"}},
+                {"id": "del_02_03", "name": {"fr": "Béja Sud"}},
+                {"id": "del_02_04", "name": {"fr": "Goubellat"}},
+                {"id": "del_02_05", "name": {"fr": "Medjez el-Bab"}},
+                {"id": "del_02_06", "name": {"fr": "Nefza"}},
+                {"id": "del_02_07", "name": {"fr": "Téboursouk"}},
+                {"id": "del_02_08", "name": {"fr": "Testour"}},
+                {"id": "del_02_09", "name": {"fr": "Thibar"}}
+            ]
+        },
+        {
+            "id": "gov_03",
+            "name": {
+                "fr": "Ben Arous"
+            },
+            "delegations": [
+                {"id": "del_03_01", "name": {"fr": "Ben Arous"}},
+                {"id": "del_03_02", "name": {"fr": "Bou Mhel el-Bassatine"}},
+                {"id": "del_03_03", "name": {"fr": "El Mourouj"}},
+                {"id": "del_03_04", "name": {"fr": "Ezzahra"}},
+                {"id": "del_03_05", "name": {"fr": "Fouchana"}},
+                {"id": "del_03_06", "name": {"fr": "Hammam Chott"}},
+                {"id": "del_03_07", "name": {"fr": "Hammam Lif"}},
+                {"id": "del_03_08", "name": {"fr": "Mégrine"}},
+                {"id": "del_03_09", "name": {"fr": "Mohamedia"}},
+                {"id": "del_03_10", "name": {"fr": "Mornag"}},
+                {"id": "del_03_11", "name": {"fr": "Nouvelle Médina"}},
+                {"id": "del_03_12", "name": {"fr": "Radès"}}
+            ]
+        },
+        {
+            "id": "gov_04",
+            "name": {
+                "fr": "Bizerte"
+            },
+            "delegations": [
+                {"id": "del_04_01", "name": {"fr": "Bizerte Nord"}},
+                {"id": "del_04_02", "name": {"fr": "Bizerte Sud"}},
+                {"id": "del_04_03", "name": {"fr": "El Alia"}},
+                {"id": "del_04_04", "name": {"fr": "Ghar El Melh"}},
+                {"id": "del_04_05", "name": {"fr": "Ghezala"}},
+                {"id": "del_04_06", "name": {"fr": "Joumine"}},
+                {"id": "del_04_07", "name": {"fr": "Mateur"}},
+                {"id": "del_04_08", "name": {"fr": "Menzel Bourguiba"}},
+                {"id": "del_04_09", "name": {"fr": "Menzel Jemil"}},
+                {"id": "del_04_10", "name": {"fr": "Ras Jebel"}},
+                {"id": "del_04_11", "name": {"fr": "Sejnane"}},
+                {"id": "del_04_12", "name": {"fr": "Tinja"}},
+                {"id": "del_04_13", "name": {"fr": "Utique"}}
+            ]
+        },
+        {
+            "id": "gov_05",
+            "name": {
+                "fr": "Gabès"
+            },
+            "delegations": [
+                {"id": "del_05_01", "name": {"fr": "Gabès Médina"}},
+                {"id": "del_05_02", "name": {"fr": "Gabès Ouest"}},
+                {"id": "del_05_03", "name": {"fr": "Gabès Sud"}},
+                {"id": "del_05_04", "name": {"fr": "El Hamma"}},
+                {"id": "del_05_05", "name": {"fr": "Mareth"}},
+                {"id": "del_05_06", "name": {"fr": "Matmata"}},
+                {"id": "del_05_07", "name": {"fr": "Menzel El Habib"}},
+                {"id": "del_05_08", "name": {"fr": "Métouia"}},
+                {"id": "del_05_09", "name": {"fr": "Nouvelle Matmata"}}
+            ]
+        },
+        {
+            "id": "gov_06",
+            "name": {
+                "fr": "Gafsa"
+            },
+            "delegations": [
+                {"id": "del_06_01", "name": {"fr": "Belkhir"}},
+                {"id": "del_06_02", "name": {"fr": "El Guettar"}},
+                {"id": "del_06_03", "name": {"fr": "El Ksar"}},
+                {"id": "del_06_04", "name": {"fr": "Gafsa Nord"}},
+                {"id": "del_06_05", "name": {"fr": "Gafsa Sud"}},
+                {"id": "del_06_06", "name": {"fr": "Mdhilla"}},
+                {"id": "del_06_07", "name": {"fr": "Métlaoui"}},
+                {"id": "del_06_08", "name": {"fr": "Moularès"}},
+                {"id": "del_06_09", "name": {"fr": "Redeyef"}},
+                {"id": "del_06_10", "name": {"fr": "Sened"}},
+                {"id": "del_06_11", "name": {"fr": "Sidi Aïch"}}
+            ]
+        },
+        {
+            "id": "gov_07",
+            "name": {
+                "fr": "Jendouba"
+            },
+            "delegations": [
+                {"id": "del_07_01", "name": {"fr": "Aïn Draham"}},
+                {"id": "del_07_02", "name": {"fr": "Balta-Bou Aouane"}},
+                {"id": "del_07_03", "name": {"fr": "Bou Salem"}},
+                {"id": "del_07_04", "name": {"fr": "Fernana"}},
+                {"id": "del_07_05", "name": {"fr": "Ghardimaou"}},
+                {"id": "del_07_06", "name": {"fr": "Jendouba"}},
+                {"id": "del_07_07", "name": {"fr": "Jendouba Nord"}},
+                {"id": "del_07_08", "name": {"fr": "Oued Meliz"}},
+                {"id": "del_07_09", "name": {"fr": "Tabarka"}}
+            ]
+        },
+        {
+            "id": "gov_08",
+            "name": {
+                "fr": "Kairouan"
+            },
+            "delegations": [
+                {"id": "del_08_01", "name": {"fr": "Alaa"}},
+                {"id": "del_08_02", "name": {"fr": "Bou Hajla"}},
+                {"id": "del_08_03", "name": {"fr": "Chebika"}},
+                {"id": "del_08_04", "name": {"fr": "Haffouz"}},
+                {"id": "del_08_05", "name": {"fr": "Hajeb El Ayoun"}},
+                {"id": "del_08_06", "name": {"fr": "Kairouan Nord"}},
+                {"id": "del_08_07", "name": {"fr": "Kairouan Sud"}},
+                {"id": "del_08_08", "name": {"fr": "Nasrallah"}},
+                {"id": "del_08_09", "name": {"fr": "Oueslatia"}},
+                {"id": "del_08_10", "name": {"fr": "Sbikha"}},
+                {"id": "del_08_11", "name": {"fr": "Echrarda"}}
+            ]
+        },
+        {
+            "id": "gov_09",
+            "name": {
+                "fr": "Kasserine"
+            },
+            "delegations": [
+                {"id": "del_09_01", "name": {"fr": "El Ayoun"}},
+                {"id": "del_09_02", "name": {"fr": "Ezzouhour"}},
+                {"id": "del_09_03", "name": {"fr": "Fériana"}},
+                {"id": "del_09_04", "name": {"fr": "Foussana"}},
+                {"id": "del_09_05", "name": {"fr": "Haïdra"}},
+                {"id": "del_09_06", "name": {"fr": "Hassi El Ferid"}},
+                {"id": "del_09_07", "name": {"fr": "Jedelienne"}},
+                {"id": "del_09_08", "name": {"fr": "Kasserine Nord"}},
+                {"id": "del_09_09", "name": {"fr": "Kasserine Sud"}},
+                {"id": "del_09_10", "name": {"fr": "Majel Bel Abbès"}},
+                {"id": "del_09_11", "name": {"fr": "Sbeitla"}},
+                {"id": "del_09_12", "name": {"fr": "Thala"}}
+            ]
+        },
+        {
+            "id": "gov_10",
+            "name": {
+                "fr": "Kébili"
+            },
+            "delegations": [
+                {"id": "del_10_01", "name": {"fr": "Douz Nord"}},
+                {"id": "del_10_02", "name": {"fr": "Douz Sud"}},
+                {"id": "del_10_03", "name": {"fr": "El Faouar"}},
+                {"id": "del_10_04", "name": {"fr": "Kébili Nord"}},
+                {"id": "del_10_05", "name": {"fr": "Kébili Sud"}},
+                {"id": "del_10_06", "name": {"fr": "Souk Lahad"}}
+            ]
+        },
+        {
+            "id": "gov_11",
+            "name": {
+                "fr": "Le Kef"
+            },
+            "delegations": [
+                {"id": "del_11_01", "name": {"fr": "Dahmani"}},
+                {"id": "del_11_02", "name": {"fr": "El Ksour"}},
+                {"id": "del_11_03", "name": {"fr": "Jérissa"}},
+                {"id": "del_11_04", "name": {"fr": "Kalaa Khasba"}},
+                {"id": "del_11_05", "name": {"fr": "Kalaat Senan"}},
+                {"id": "del_11_06", "name": {"fr": "Le Kef Est"}},
+                {"id": "del_11_07", "name": {"fr": "Le Kef Ouest"}},
+                {"id": "del_11_08", "name": {"fr": "Le Sers"}},
+                {"id": "del_11_09", "name": {"fr": "Nebeur"}},
+                {"id": "del_11_10", "name": {"fr": "Sakiet Sidi Youssef"}},
+                {"id": "del_11_11", "name": {"fr": "Tajerouine"}},
+                {"id": "del_11_12", "name": {"fr": "Touiref"}}
+            ]
+        },
+        {
+            "id": "gov_12",
+            "name": {
+                "fr": "Mahdia"
+            },
+            "delegations": [
+                {"id": "del_12_01", "name": {"fr": "Bou Merdes"}},
+                {"id": "del_12_02", "name": {"fr": "Chebba"}},
+                {"id": "del_12_03", "name": {"fr": "Chorbane"}},
+                {"id": "del_12_04", "name": {"fr": "El Jem"}},
+                {"id": "del_12_05", "name": {"fr": "Hebira"}},
+                {"id": "del_12_06", "name": {"fr": "Ksour Essef"}},
+                {"id": "del_12_07", "name": {"fr": "Mahdia"}},
+                {"id": "del_12_08", "name": {"fr": "Melloulèche"}},
+                {"id": "del_12_09", "name": {"fr": "Ouled Chamekh"}},
+                {"id": "del_12_10", "name": {"fr": "Sidi Alouane"}},
+                {"id": "del_12_11", "name": {"fr": "Souassi"}}
+            ]
+        },
+        {
+            "id": "gov_13",
+            "name": {
+                "fr": "Manouba"
+            },
+            "delegations": [
+                {"id": "del_13_01", "name": {"fr": "Borj El Amri"}},
+                {"id": "del_13_02", "name": {"fr": "Douar Hicher"}},
+                {"id": "del_13_03", "name": {"fr": "El Battan"}},
+                {"id": "del_13_04", "name": {"fr": "Jedaida"}},
+                {"id": "del_13_05", "name": {"fr": "Manouba"}},
+                {"id": "del_13_06", "name": {"fr": "Mornaguia"}},
+                {"id": "del_13_07", "name": {"fr": "Oued Ellil"}},
+                {"id": "del_13_08", "name": {"fr": "Tebourba"}}
+            ]
+        },
+        {
+            "id": "gov_14",
+            "name": {
+                "fr": "Médenine"
+            },
+            "delegations": [
+                {"id": "del_14_01", "name": {"fr": "Ben Gardane"}},
+                {"id": "del_14_02", "name": {"fr": "Beni Khedache"}},
+                {"id": "del_14_03", "name": {"fr": "Djerba Ajim"}},
+                {"id": "del_14_04", "name": {"fr": "Djerba Houmt Souk"}},
+                {"id": "del_14_05", "name": {"fr": "Djerba Midoun"}},
+                {"id": "del_14_06", "name": {"fr": "Médenine Nord"}},
+                {"id": "del_14_07", "name": {"fr": "Médenine Sud"}},
+                {"id": "del_14_08", "name": {"fr": "Sidi Makhlouf"}},
+                {"id": "del_14_09", "name": {"fr": "Zarzis"}}
+            ]
+        },
+        {
+            "id": "gov_15",
+            "name": {
+                "fr": "Monastir"
+            },
+            "delegations": [
+                {"id": "del_15_01", "name": {"fr": "Bekalta"}},
+                {"id": "del_15_02", "name": {"fr": "Bembla"}},
+                {"id": "del_15_03", "name": {"fr": "Beni Hassen"}},
+                {"id": "del_15_04", "name": {"fr": "Jammel"}},
+                {"id": "del_15_05", "name": {"fr": "Ksar Hellal"}},
+                {"id": "del_15_06", "name": {"fr": "Ksibet el-Médiouni"}},
+                {"id": "del_15_07", "name": {"fr": "Moknine"}},
+                {"id": "del_15_08", "name": {"fr": "Monastir"}},
+                {"id": "del_15_09", "name": {"fr": "Ouerdanine"}},
+                {"id": "del_15_10", "name": {"fr": "Sahline"}},
+                {"id": "del_15_11", "name": {"fr": "Sayada-Lamta-Bou Hajar"}},
+                {"id": "del_15_12", "name": {"fr": "Téboulba"}},
+                {"id": "del_15_13", "name": {"fr": "Zéramdine"}}
+            ]
+        },
+        {
+            "id": "gov_16",
+            "name": {
+                "fr": "Nabeul"
+            },
+            "delegations": [
+                {"id": "del_16_01", "name": {"fr": "Béni Khalled"}},
+                {"id": "del_16_02", "name": {"fr": "Béni Khiar"}},
+                {"id": "del_16_03", "name": {"fr": "Bou Argoub"}},
+                {"id": "del_16_04", "name": {"fr": "Dar Chaâbane El Fehri"}},
+                {"id": "del_16_05", "name": {"fr": "El Haouaria"}},
+                {"id": "del_16_06", "name": {"fr": "El Mida"}},
+                {"id": "del_16_07", "name": {"fr": "Grombalia"}},
+                {"id": "del_16_08", "name": {"fr": "Hammam Ghezèze"}},
+                {"id": "del_16_09", "name": {"fr": "Hammamet"}},
+                {"id": "del_16_10", "name": {"fr": "Kélibia"}},
+                {"id": "del_16_11", "name": {"fr": "Korba"}},
+                {"id": "del_16_12", "name": {"fr": "Menzel Bouzelfa"}},
+                {"id": "del_16_13", "name": {"fr": "Menzel Temime"}},
+                {"id": "del_16_14", "name": {"fr": "Nabeul"}},
+                {"id": "del_16_15", "name": {"fr": "Soliman"}},
+                {"id": "del_16_16", "name": {"fr": "Takelsa"}}
+            ]
+        },
+        {
+            "id": "gov_17",
+            "name": {
+                "fr": "Sfax"
+            },
+            "delegations": [
+                {"id": "del_17_01", "name": {"fr": "Agareb"}},
+                {"id": "del_17_02", "name": {"fr": "Bir Ali Ben Khalifa"}},
+                {"id": "del_17_03", "name": {"fr": "El Amra"}},
+                {"id": "del_17_04", "name": {"fr": "El Hencha"}},
+                {"id": "del_17_05", "name": {"fr": "Graïba"}},
+                {"id": "del_17_06", "name": {"fr": "Jebiniana"}},
+                {"id": "del_17_07", "name": {"fr": "Kerkennah"}},
+                {"id": "del_17_08", "name": {"fr": "Mahares"}},
+                {"id": "del_17_09", "name": {"fr": "Menzel Chaker"}},
+                {"id": "del_17_10", "name": {"fr": "Sakiet Eddaïer"}},
+                {"id": "del_17_11", "name": {"fr": "Sakiet Ezzit"}},
+                {"id": "del_17_12", "name": {"fr": "Sfax Ouest"}},
+                {"id": "del_17_13", "name": {"fr": "Sfax Sud"}},
+                {"id": "del_17_14", "name": {"fr": "Sfax Ville"}},
+                {"id": "del_17_15", "name": {"fr": "Skhira"}},
+                {"id": "del_17_16", "name": {"fr": "Thyna"}}
+            ]
+        },
+        {
+            "id": "gov_18",
+            "name": {
+                "fr": "Sidi Bouzid"
+            },
+            "delegations": [
+                {"id": "del_18_01", "name": {"fr": "Bir El Hafey"}},
+                {"id": "del_18_02", "name": {"fr": "Cebbala Ouled Asker"}},
+                {"id": "del_18_03", "name": {"fr": "Jilma"}},
+                {"id": "del_18_04", "name": {"fr": "Meknassy"}},
+                {"id": "del_18_05", "name": {"fr": "Menzel Bouzaiane"}},
+                {"id": "del_18_06", "name": {"fr": "Mezzouna"}},
+                {"id": "del_18_07", "name": {"fr": "Ouled Haffouz"}},
+                {"id": "del_18_08", "name": {"fr": "Regueb"}},
+                {"id": "del_18_09", "name": {"fr": "Sidi Bouzid Est"}},
+                {"id": "del_18_10", "name": {"fr": "Sidi Bouzid Ouest"}},
+                {"id": "del_18_11", "name": {"fr": "Souk Jedid"}},
+                {"id": "del_18_12", "name": {"fr": "Sidi Ali Ben Aoun"}}
+            ]
+        },
+        {
+            "id": "gov_19",
+            "name": {
+                "fr": "Siliana"
+            },
+            "delegations": [
+                {"id": "del_19_01", "name": {"fr": "Bargou"}},
+                {"id": "del_19_02", "name": {"fr": "Bou Arada"}},
+                {"id": "del_19_03", "name": {"fr": "El Aroussa"}},
+                {"id": "del_19_04", "name": {"fr": "El Krib"}},
+                {"id": "del_19_05", "name": {"fr": "Gaâfour"}},
+                {"id": "del_19_06", "name": {"fr": "Kesra"}},
+                {"id": "del_19_07", "name": {"fr": "Makthar"}},
+                {"id": "del_19_08", "name": {"fr": "Rouhia"}},
+                {"id": "del_19_09", "name": {"fr": "Sidi Bou Rouis"}},
+                {"id": "del_19_10", "name": {"fr": "Siliana Nord"}},
+                {"id": "del_19_11", "name": {"fr": "Siliana Sud"}}
+            ]
+        },
+        {
+            "id": "gov_20",
+            "name": {
+                "fr": "Sousse"
+            },
+            "delegations": [
+                {"id": "del_20_01", "name": {"fr": "Akouda"}},
+                {"id": "del_20_02", "name": {"fr": "Bouficha"}},
+                {"id": "del_20_03", "name": {"fr": "Enfidha"}},
+                {"id": "del_20_04", "name": {"fr": "Hammam Sousse"}},
+                {"id": "del_20_05", "name": {"fr": "Hergla"}},
+                {"id": "del_20_06", "name": {"fr": "Kalâa Kebira"}},
+                {"id": "del_20_07", "name": {"fr": "Kalâa Seghira"}},
+                {"id": "del_20_08", "name": {"fr": "Kondar"}},
+                {"id": "del_20_09", "name": {"fr": "M'saken"}},
+                {"id": "del_20_10", "name": {"fr": "Sidi Bou Ali"}},
+                {"id": "del_20_11", "name": {"fr": "Sidi El Hani"}},
+                {"id": "del_20_12", "name": {"fr": "Sousse Jawhara"}},
+                {"id": "del_20_13", "name": {"fr": "Sousse Médina"}},
+                {"id": "del_20_14", "name": {"fr": "Sousse Riadh"}},
+                {"id": "del_20_15", "name": {"fr": "Sousse Sidi Abdelhamid"}}
+            ]
+        },
+        {
+            "id": "gov_21",
+            "name": {
+                "fr": "Tataouine"
+            },
+            "delegations": [
+                {"id": "del_21_01", "name": {"fr": "Bir Lahmar"}},
+                {"id": "del_21_02", "name": {"fr": "Dehiba"}},
+                {"id": "del_21_03", "name": {"fr": "Ghomrassen"}},
+                {"id": "del_21_04", "name": {"fr": "Remada"}},
+                {"id": "del_21_05", "name": {"fr": "Smâr"}},
+                {"id": "del_21_06", "name": {"fr": "Tataouine Nord"}},
+                {"id": "del_21_07", "name": {"fr": "Tataouine Sud"}}
+            ]
+        },
+        {
+            "id": "gov_22",
+            "name": {
+                "fr": "Tozeur"
+            },
+            "delegations": [
+                {"id": "del_22_01", "name": {"fr": "Degache"}},
+                {"id": "del_22_02", "name": {"fr": "Hazoua"}},
+                {"id": "del_22_03", "name": {"fr": "Nefta"}},
+                {"id": "del_22_04", "name": {"fr": "Tameghza"}},
+                {"id": "del_22_05", "name": {"fr": "Tozeur"}}
+            ]
+        },
+        {
+            "id": "gov_23",
+            "name": {
+                "fr": "Tunis"
+            },
+            "delegations": [
+                {"id": "del_23_01", "name": {"fr": "Bab Bhar"}},
+                {"id": "del_23_02", "name": {"fr": "Bab Souika"}},
+                {"id": "del_23_03", "name": {"fr": "Carthage"}},
+                {"id": "del_23_04", "name": {"fr": "Cité El Khadra"}},
+                {"id": "del_23_05", "name": {"fr": "El Kabaria"}},
+                {"id": "del_23_06", "name": {"fr": "El Menzah"}},
+                {"id": "del_23_07", "name": {"fr": "El Omrane"}},
+                {"id": "del_23_08", "name": {"fr": "El Omrane Supérieur"}},
+                {"id": "del_23_09", "name": {"fr": "El Ouardia"}},
+                {"id": "del_23_10", "name": {"fr": "Ettahrir"}},
+                {"id": "del_23_11", "name": {"fr": "Ezzouhour"}},
+                {"id": "del_23_12", "name": {"fr": "Hrairia"}},
+                {"id": "del_23_13", "name": {"fr": "La Goulette"}},
+                {"id": "del_23_14", "name": {"fr": "La Marsa"}},
+                {"id": "del_23_15", "name": {"fr": "Le Bardo"}},
+                {"id": "del_23_16", "name": {"fr": "Le Kram"}},
+                {"id": "del_23_17", "name": {"fr": "Médina"}},
+                {"id": "del_23_18", "name": {"fr": "Séjoumi"}},
+                {"id": "del_23_19", "name": {"fr": "Sidi El Béchir"}},
+                {"id": "del_23_20", "name": {"fr": "Sidi Hassine"}}
+            ]
+        },
+        {
+            "id": "gov_24",
+            "name": {
+                "fr": "Zaghouan"
+            },
+            "delegations": [
+                {"id": "del_24_01", "name": {"fr": "Bir Mcherga"}},
+                {"id": "del_24_02", "name": {"fr": "El Fahs"}},
+                {"id": "del_24_03", "name": {"fr": "Nadhour"}},
+                {"id": "del_24_04", "name": {"fr": "Saouaf"}},
+                {"id": "del_24_05", "name": {"fr": "Zaghouan"}},
+                {"id": "del_24_06", "name": {"fr": "Zriba"}}
+            ]
+        }
+    ]
+} 

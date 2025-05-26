@@ -1,0 +1,1788 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2024",
+  "governorates": [
+    {
+      "id": "ariana",
+      "name": {
+        "fr": "Ariana"
+      },
+      "delegations": [
+        {
+          "id": "ariana-ville",
+          "name": {
+            "fr": "Ariana Ville"
+          }
+        },
+        {
+          "id": "raoued",
+          "name": {
+            "fr": "Raoued"
+          }
+        },
+        {
+          "id": "kalaat-andalous",
+          "name": {
+            "fr": "Kalâat el-Andalous"
+          }
+        },
+        {
+          "id": "sidi-thabet",
+          "name": {
+            "fr": "Sidi Thabet"
+          }
+        },
+        {
+          "id": "ettadhamen",
+          "name": {
+            "fr": "Ettadhamen"
+          }
+        },
+        {
+          "id": "mnihla",
+          "name": {
+            "fr": "Mnihla"
+          }
+        },
+        {
+          "id": "soukra",
+          "name": {
+            "fr": "Soukra"
+          }
+        }
+      ]
+    },
+    {
+      "id": "beja",
+      "name": {
+        "fr": "Béja"
+      },
+      "delegations": [
+        {
+          "id": "beja-nord",
+          "name": {
+            "fr": "Béja Nord"
+          }
+        },
+        {
+          "id": "beja-sud",
+          "name": {
+            "fr": "Béja Sud"
+          }
+        },
+        {
+          "id": "amdoun",
+          "name": {
+            "fr": "Amdoun"
+          }
+        },
+        {
+          "id": "nefza",
+          "name": {
+            "fr": "Nefza"
+          }
+        },
+        {
+          "id": "teboursouk",
+          "name": {
+            "fr": "Téboursouk"
+          }
+        },
+        {
+          "id": "tibar",
+          "name": {
+            "fr": "Thibar"
+          }
+        },
+        {
+          "id": "testour",
+          "name": {
+            "fr": "Testour"
+          }
+        },
+        {
+          "id": "goubellat",
+          "name": {
+            "fr": "Goubellat"
+          }
+        },
+        {
+          "id": "medjez",
+          "name": {
+            "fr": "Medjez"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ben-arous",
+      "name": {
+        "fr": "Ben Arous"
+      },
+      "delegations": [
+        {
+          "id": "ben-arous",
+          "name": {
+            "fr": "Ben Arous"
+          }
+        },
+        {
+          "id": "el-mourouj",
+          "name": {
+            "fr": "El Mourouj"
+          }
+        },
+        {
+          "id": "hammam-lif",
+          "name": {
+            "fr": "Hammam Lif"
+          }
+        },
+        {
+          "id": "hammam-chott",
+          "name": {
+            "fr": "Hammam Chott"
+          }
+        },
+        {
+          "id": "bou-mhel",
+          "name": {
+            "fr": "Bou Mhel"
+          }
+        },
+        {
+          "id": "ezzahra",
+          "name": {
+            "fr": "Ezzahra"
+          }
+        },
+        {
+          "id": "rades",
+          "name": {
+            "fr": "Radès"
+          }
+        },
+        {
+          "id": "megrine",
+          "name": {
+            "fr": "Mégrine"
+          }
+        },
+        {
+          "id": "mohamedia",
+          "name": {
+            "fr": "Mohamedia"
+          }
+        },
+        {
+          "id": "fouchana",
+          "name": {
+            "fr": "Fouchana"
+          }
+        },
+        {
+          "id": "mornag",
+          "name": {
+            "fr": "Mornag"
+          }
+        },
+        {
+          "id": "khlidia",
+          "name": {
+            "fr": "Khlidia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bizerte",
+      "name": {
+        "fr": "Bizerte"
+      },
+      "delegations": [
+        {
+          "id": "bizerte-nord",
+          "name": {
+            "fr": "Bizerte Nord"
+          }
+        },
+        {
+          "id": "bizerte-sud",
+          "name": {
+            "fr": "Bizerte Sud"
+          }
+        },
+        {
+          "id": "el-alia",
+          "name": {
+            "fr": "El Alia"
+          }
+        },
+        {
+          "id": "zarzouna",
+          "name": {
+            "fr": "Zarzouna"
+          }
+        },
+        {
+          "id": "ghezala",
+          "name": {
+            "fr": "Ghezala"
+          }
+        },
+        {
+          "id": "menzel-bourguiba",
+          "name": {
+            "fr": "Menzel Bourguiba"
+          }
+        },
+        {
+          "id": "menzel-jemil",
+          "name": {
+            "fr": "Menzel Jemil"
+          }
+        },
+        {
+          "id": "sejnane",
+          "name": {
+            "fr": "Sejnane"
+          }
+        },
+        {
+          "id": "joumine",
+          "name": {
+            "fr": "Joumine"
+          }
+        },
+        {
+          "id": "mateur",
+          "name": {
+            "fr": "Mateur"
+          }
+        },
+        {
+          "id": "tinja",
+          "name": {
+            "fr": "Tinja"
+          }
+        },
+        {
+          "id": "utique",
+          "name": {
+            "fr": "Utique"
+          }
+        },
+        {
+          "id": "ghar-el-melh",
+          "name": {
+            "fr": "Ghar El Melh"
+          }
+        },
+        {
+          "id": "ras-jebel",
+          "name": {
+            "fr": "Ras Jebel"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gabes",
+      "name": {
+        "fr": "Gabès"
+      },
+      "delegations": [
+        {
+          "id": "gabes-medina",
+          "name": {
+            "fr": "Gabès Médina"
+          }
+        },
+        {
+          "id": "gabes-ouest",
+          "name": {
+            "fr": "Gabès Ouest"
+          }
+        },
+        {
+          "id": "gabes-sud",
+          "name": {
+            "fr": "Gabès Sud"
+          }
+        },
+        {
+          "id": "ghannouch",
+          "name": {
+            "fr": "Ghannouch"
+          }
+        },
+        {
+          "id": "el-hamma",
+          "name": {
+            "fr": "El Hamma"
+          }
+        },
+        {
+          "id": "matmata",
+          "name": {
+            "fr": "Matmata"
+          }
+        },
+        {
+          "id": "mareth",
+          "name": {
+            "fr": "Mareth"
+          }
+        },
+        {
+          "id": "menzel-habib",
+          "name": {
+            "fr": "Menzel Habib"
+          }
+        },
+        {
+          "id": "nouvelle-matmata",
+          "name": {
+            "fr": "Nouvelle Matmata"
+          }
+        },
+        {
+          "id": "metouia",
+          "name": {
+            "fr": "Métouia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gafsa",
+      "name": {
+        "fr": "Gafsa"
+      },
+      "delegations": [
+        {
+          "id": "gafsa-nord",
+          "name": {
+            "fr": "Gafsa Nord"
+          }
+        },
+        {
+          "id": "gafsa-sud",
+          "name": {
+            "fr": "Gafsa Sud"
+          }
+        },
+        {
+          "id": "sidi-aich",
+          "name": {
+            "fr": "Sidi Aïch"
+          }
+        },
+        {
+          "id": "el-ksar",
+          "name": {
+            "fr": "El Ksar"
+          }
+        },
+        {
+          "id": "oum-larais",
+          "name": {
+            "fr": "Oum Laraies"
+          }
+        },
+        {
+          "id": "redeyef",
+          "name": {
+            "fr": "Redeyef"
+          }
+        },
+        {
+          "id": "metlaoui",
+          "name": {
+            "fr": "Metlaoui"
+          }
+        },
+        {
+          "id": "mdhilla",
+          "name": {
+            "fr": "Mdhilla"
+          }
+        },
+        {
+          "id": "belkhir",
+          "name": {
+            "fr": "Belkhir"
+          }
+        },
+        {
+          "id": "sned",
+          "name": {
+            "fr": "Sned"
+          }
+        },
+        {
+          "id": "zannouch",
+          "name": {
+            "fr": "Zannouch"
+          }
+        }
+      ]
+    },
+    {
+      "id": "jendouba",
+      "name": {
+        "fr": "Jendouba"
+      },
+      "delegations": [
+        {
+          "id": "jendouba",
+          "name": {
+            "fr": "Jendouba"
+          }
+        },
+        {
+          "id": "jendouba-nord",
+          "name": {
+            "fr": "Jendouba Nord"
+          }
+        },
+        {
+          "id": "bou-salem",
+          "name": {
+            "fr": "Bou Salem"
+          }
+        },
+        {
+          "id": "tabarka",
+          "name": {
+            "fr": "Tabarka"
+          }
+        },
+        {
+          "id": "ain-draham",
+          "name": {
+            "fr": "Aïn Draham"
+          }
+        },
+        {
+          "id": "fernana",
+          "name": {
+            "fr": "Fernana"
+          }
+        },
+        {
+          "id": "ghardimaou",
+          "name": {
+            "fr": "Ghardimaou"
+          }
+        },
+        {
+          "id": "oued-meliz",
+          "name": {
+            "fr": "Oued Meliz"
+          }
+        },
+        {
+          "id": "balta-bou-aouane",
+          "name": {
+            "fr": "Balta-Bou Aouane"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kairouan",
+      "name": {
+        "fr": "Kairouan"
+      },
+      "delegations": [
+        {
+          "id": "kairouan-nord",
+          "name": {
+            "fr": "Kairouan Nord"
+          }
+        },
+        {
+          "id": "kairouan-sud",
+          "name": {
+            "fr": "Kairouan Sud"
+          }
+        },
+        {
+          "id": "echbika",
+          "name": {
+            "fr": "Echbika"
+          }
+        },
+        {
+          "id": "sbikha",
+          "name": {
+            "fr": "Sbikha"
+          }
+        },
+        {
+          "id": "haffouz",
+          "name": {
+            "fr": "Haffouz"
+          }
+        },
+        {
+          "id": "hajeb-el-ayoun",
+          "name": {
+            "fr": "Hajeb El Ayoun"
+          }
+        },
+        {
+          "id": "nasrallah",
+          "name": {
+            "fr": "Nasrallah"
+          }
+        },
+        {
+          "id": "cherarda",
+          "name": {
+            "fr": "Cherarda"
+          }
+        },
+        {
+          "id": "bouhajla",
+          "name": {
+            "fr": "Bouhajla"
+          }
+        },
+        {
+          "id": "el-ala",
+          "name": {
+            "fr": "El Alâa"
+          }
+        },
+        {
+          "id": "oueslatia",
+          "name": {
+            "fr": "Oueslatia"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kasserine",
+      "name": {
+        "fr": "Kasserine"
+      },
+      "delegations": [
+        {
+          "id": "kasserine-nord",
+          "name": {
+            "fr": "Kasserine Nord"
+          }
+        },
+        {
+          "id": "kasserine-sud",
+          "name": {
+            "fr": "Kasserine Sud"
+          }
+        },
+        {
+          "id": "ezzouhour",
+          "name": {
+            "fr": "Ezzouhour"
+          }
+        },
+        {
+          "id": "hassi-el-ferid",
+          "name": {
+            "fr": "Hassi El Ferid"
+          }
+        },
+        {
+          "id": "sbeitla",
+          "name": {
+            "fr": "Sbeitla"
+          }
+        },
+        {
+          "id": "sbiba",
+          "name": {
+            "fr": "Sbiba"
+          }
+        },
+        {
+          "id": "djedeliane",
+          "name": {
+            "fr": "Djedeliane"
+          }
+        },
+        {
+          "id": "el-ayoun",
+          "name": {
+            "fr": "El Ayoun"
+          }
+        },
+        {
+          "id": "thala",
+          "name": {
+            "fr": "Thala"
+          }
+        },
+        {
+          "id": "hidra",
+          "name": {
+            "fr": "Hidra"
+          }
+        },
+        {
+          "id": "foussana",
+          "name": {
+            "fr": "Foussana"
+          }
+        },
+        {
+          "id": "feriana",
+          "name": {
+            "fr": "Fériana"
+          }
+        },
+        {
+          "id": "majel-bel-abbes",
+          "name": {
+            "fr": "Majel Bel Abbès"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kebili",
+      "name": {
+        "fr": "Kébili"
+      },
+      "delegations": [
+        {
+          "id": "kebili-nord",
+          "name": {
+            "fr": "Kébili Nord"
+          }
+        },
+        {
+          "id": "kebili-sud",
+          "name": {
+            "fr": "Kébili Sud"
+          }
+        },
+        {
+          "id": "souk-lahad",
+          "name": {
+            "fr": "Souk Lahad"
+          }
+        },
+        {
+          "id": "douz-nord",
+          "name": {
+            "fr": "Douz Nord"
+          }
+        },
+        {
+          "id": "douz-sud",
+          "name": {
+            "fr": "Douz Sud"
+          }
+        },
+        {
+          "id": "faouar",
+          "name": {
+            "fr": "Faouar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "kef",
+      "name": {
+        "fr": "Le Kef"
+      },
+      "delegations": [
+        {
+          "id": "kef-est",
+          "name": {
+            "fr": "Le Kef Est"
+          }
+        },
+        {
+          "id": "kef-ouest",
+          "name": {
+            "fr": "Le Kef Ouest"
+          }
+        },
+        {
+          "id": "nebeur",
+          "name": {
+            "fr": "Nebeur"
+          }
+        },
+        {
+          "id": "sakiet-sidi-youssef",
+          "name": {
+            "fr": "Sakiet Sidi Youssef"
+          }
+        },
+        {
+          "id": "tajerouine",
+          "name": {
+            "fr": "Tajerouine"
+          }
+        },
+        {
+          "id": "kalaat-senan",
+          "name": {
+            "fr": "Kalâat Senan"
+          }
+        },
+        {
+          "id": "kalaat-khasba",
+          "name": {
+            "fr": "Kalâat Khasba"
+          }
+        },
+        {
+          "id": "jerissa",
+          "name": {
+            "fr": "Jérissa"
+          }
+        },
+        {
+          "id": "el-ksour",
+          "name": {
+            "fr": "El Ksour"
+          }
+        },
+        {
+          "id": "dahmani",
+          "name": {
+            "fr": "Dahmani"
+          }
+        },
+        {
+          "id": "sers",
+          "name": {
+            "fr": "Sers"
+          }
+        },
+        {
+          "id": "touiref",
+          "name": {
+            "fr": "Touiref"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mahdia",
+      "name": {
+        "fr": "Mahdia"
+      },
+      "delegations": [
+        {
+          "id": "mahdia",
+          "name": {
+            "fr": "Mahdia"
+          }
+        },
+        {
+          "id": "bou-merdes",
+          "name": {
+            "fr": "Bou Merdes"
+          }
+        },
+        {
+          "id": "ouled-chamekh",
+          "name": {
+            "fr": "Ouled Chamekh"
+          }
+        },
+        {
+          "id": "chorbane",
+          "name": {
+            "fr": "Chorbane"
+          }
+        },
+        {
+          "id": "hebira",
+          "name": {
+            "fr": "Hebira"
+          }
+        },
+        {
+          "id": "essouassi",
+          "name": {
+            "fr": "Essouassi"
+          }
+        },
+        {
+          "id": "el-jem",
+          "name": {
+            "fr": "El Jem"
+          }
+        },
+        {
+          "id": "chebba",
+          "name": {
+            "fr": "Chebba"
+          }
+        },
+        {
+          "id": "melloulech",
+          "name": {
+            "fr": "Melloulèche"
+          }
+        },
+        {
+          "id": "sidi-alouane",
+          "name": {
+            "fr": "Sidi Alouane"
+          }
+        },
+        {
+          "id": "ksour-essef",
+          "name": {
+            "fr": "Ksour Essef"
+          }
+        }
+      ]
+    },
+    {
+      "id": "manouba",
+      "name": {
+        "fr": "Manouba"
+      },
+      "delegations": [
+        {
+          "id": "manouba",
+          "name": {
+            "fr": "Manouba"
+          }
+        },
+        {
+          "id": "oued-ellil",
+          "name": {
+            "fr": "Oued Ellil"
+          }
+        },
+        {
+          "id": "tebourba",
+          "name": {
+            "fr": "Tebourba"
+          }
+        },
+        {
+          "id": "borj-el-amri",
+          "name": {
+            "fr": "Borj El Amri"
+          }
+        },
+        {
+          "id": "djedeida",
+          "name": {
+            "fr": "Djedeida"
+          }
+        },
+        {
+          "id": "douar-hicher",
+          "name": {
+            "fr": "Douar Hicher"
+          }
+        },
+        {
+          "id": "mornaguia",
+          "name": {
+            "fr": "Mornaguia"
+          }
+        },
+        {
+          "id": "el-battan",
+          "name": {
+            "fr": "El Battan"
+          }
+        }
+      ]
+    },
+    {
+      "id": "medenine",
+      "name": {
+        "fr": "Médenine"
+      },
+      "delegations": [
+        {
+          "id": "medenine-nord",
+          "name": {
+            "fr": "Médenine Nord"
+          }
+        },
+        {
+          "id": "medenine-sud",
+          "name": {
+            "fr": "Médenine Sud"
+          }
+        },
+        {
+          "id": "beni-khedache",
+          "name": {
+            "fr": "Beni Khedache"
+          }
+        },
+        {
+          "id": "ben-guerdane",
+          "name": {
+            "fr": "Ben Guerdane"
+          }
+        },
+        {
+          "id": "zarzis",
+          "name": {
+            "fr": "Zarzis"
+          }
+        },
+        {
+          "id": "djerba-houmt-souk",
+          "name": {
+            "fr": "Djerba Houmt Souk"
+          }
+        },
+        {
+          "id": "djerba-midoun",
+          "name": {
+            "fr": "Djerba Midoun"
+          }
+        },
+        {
+          "id": "djerba-ajim",
+          "name": {
+            "fr": "Djerba Ajim"
+          }
+        },
+        {
+          "id": "sidi-makhlouf",
+          "name": {
+            "fr": "Sidi Makhlouf"
+          }
+        }
+      ]
+    },
+    {
+      "id": "monastir",
+      "name": {
+        "fr": "Monastir"
+      },
+      "delegations": [
+        {
+          "id": "monastir",
+          "name": {
+            "fr": "Monastir"
+          }
+        },
+        {
+          "id": "ouerdanine",
+          "name": {
+            "fr": "Ouerdanine"
+          }
+        },
+        {
+          "id": "sahline",
+          "name": {
+            "fr": "Sahline"
+          }
+        },
+        {
+          "id": "zeramdine",
+          "name": {
+            "fr": "Zéramdine"
+          }
+        },
+        {
+          "id": "beni-hassen",
+          "name": {
+            "fr": "Beni Hassen"
+          }
+        },
+        {
+          "id": "jammel",
+          "name": {
+            "fr": "Jammel"
+          }
+        },
+        {
+          "id": "bembla",
+          "name": {
+            "fr": "Bembla"
+          }
+        },
+        {
+          "id": "moknine",
+          "name": {
+            "fr": "Moknine"
+          }
+        },
+        {
+          "id": "bekalta",
+          "name": {
+            "fr": "Bekalta"
+          }
+        },
+        {
+          "id": "teboulba",
+          "name": {
+            "fr": "Téboulba"
+          }
+        },
+        {
+          "id": "ksar-hellal",
+          "name": {
+            "fr": "Ksar Hellal"
+          }
+        },
+        {
+          "id": "ksibet-el-mediouni",
+          "name": {
+            "fr": "Ksibet El Mediouni"
+          }
+        },
+        {
+          "id": "sayada-lamta-bou-hajar",
+          "name": {
+            "fr": "Sayada-Lamta-Bou Hajar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nabeul",
+      "name": {
+        "fr": "Nabeul"
+      },
+      "delegations": [
+        {
+          "id": "nabeul",
+          "name": {
+            "fr": "Nabeul"
+          }
+        },
+        {
+          "id": "dar-chaabane-elfehri",
+          "name": {
+            "fr": "Dar Chaabane Elfehri"
+          }
+        },
+        {
+          "id": "beni-khiar",
+          "name": {
+            "fr": "Beni Khiar"
+          }
+        },
+        {
+          "id": "korba",
+          "name": {
+            "fr": "Korba"
+          }
+        },
+        {
+          "id": "menzel-temime",
+          "name": {
+            "fr": "Menzel Temime"
+          }
+        },
+        {
+          "id": "mida",
+          "name": {
+            "fr": "Mida"
+          }
+        },
+        {
+          "id": "kelibia",
+          "name": {
+            "fr": "Kelibia"
+          }
+        },
+        {
+          "id": "hammam-ghezeze",
+          "name": {
+            "fr": "Hammam Ghezèze"
+          }
+        },
+        {
+          "id": "haouaria",
+          "name": {
+            "fr": "Haouaria"
+          }
+        },
+        {
+          "id": "takelsa",
+          "name": {
+            "fr": "Takelsa"
+          }
+        },
+        {
+          "id": "soliman",
+          "name": {
+            "fr": "Soliman"
+          }
+        },
+        {
+          "id": "menzel-bouzelfa",
+          "name": {
+            "fr": "Menzel Bouzelfa"
+          }
+        },
+        {
+          "id": "beni-khalled",
+          "name": {
+            "fr": "Beni Khalled"
+          }
+        },
+        {
+          "id": "grombalia",
+          "name": {
+            "fr": "Grombalia"
+          }
+        },
+        {
+          "id": "bouargoub",
+          "name": {
+            "fr": "Bouargoub"
+          }
+        },
+        {
+          "id": "hammamet",
+          "name": {
+            "fr": "Hammamet"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sfax",
+      "name": {
+        "fr": "Sfax"
+      },
+      "delegations": [
+        {
+          "id": "sfax-ville",
+          "name": {
+            "fr": "Sfax Ville"
+          }
+        },
+        {
+          "id": "sfax-ouest",
+          "name": {
+            "fr": "Sfax Ouest"
+          }
+        },
+        {
+          "id": "sfax-sud",
+          "name": {
+            "fr": "Sfax Sud"
+          }
+        },
+        {
+          "id": "sakiet-eddaier",
+          "name": {
+            "fr": "Sakiet Eddaier"
+          }
+        },
+        {
+          "id": "sakiet-ezzit",
+          "name": {
+            "fr": "Sakiet Ezzit"
+          }
+        },
+        {
+          "id": "el-ain",
+          "name": {
+            "fr": "El Ain"
+          }
+        },
+        {
+          "id": "gremda",
+          "name": {
+            "fr": "Gremda"
+          }
+        },
+        {
+          "id": "agareb",
+          "name": {
+            "fr": "Agareb"
+          }
+        },
+        {
+          "id": "jebeniana",
+          "name": {
+            "fr": "Jebiniana"
+          }
+        },
+        {
+          "id": "el-amra",
+          "name": {
+            "fr": "El Amra"
+          }
+        },
+        {
+          "id": "el-hencha",
+          "name": {
+            "fr": "El Hencha"
+          }
+        },
+        {
+          "id": "menzel-chaker",
+          "name": {
+            "fr": "Menzel Chaker"
+          }
+        },
+        {
+          "id": "ghraiba",
+          "name": {
+            "fr": "Ghraiba"
+          }
+        },
+        {
+          "id": "bir-ali-ben-khalifa",
+          "name": {
+            "fr": "Bir Ali Ben Khalifa"
+          }
+        },
+        {
+          "id": "skhira",
+          "name": {
+            "fr": "Skhira"
+          }
+        },
+        {
+          "id": "mahres",
+          "name": {
+            "fr": "Mahres"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sidi-bouzid",
+      "name": {
+        "fr": "Sidi Bouzid"
+      },
+      "delegations": [
+        {
+          "id": "sidi-bouzid-ouest",
+          "name": {
+            "fr": "Sidi Bouzid Ouest"
+          }
+        },
+        {
+          "id": "sidi-bouzid-est",
+          "name": {
+            "fr": "Sidi Bouzid Est"
+          }
+        },
+        {
+          "id": "jelma",
+          "name": {
+            "fr": "Jelma"
+          }
+        },
+        {
+          "id": "cebbala",
+          "name": {
+            "fr": "Cebbala"
+          }
+        },
+        {
+          "id": "bir-el-hafey",
+          "name": {
+            "fr": "Bir El Hafey"
+          }
+        },
+        {
+          "id": "sidi-ali-ben-aoun",
+          "name": {
+            "fr": "Sidi Ali Ben Aoun"
+          }
+        },
+        {
+          "id": "menzel-bouzaiane",
+          "name": {
+            "fr": "Menzel Bouzaiane"
+          }
+        },
+        {
+          "id": "meknassy",
+          "name": {
+            "fr": "Meknassy"
+          }
+        },
+        {
+          "id": "mezzouna",
+          "name": {
+            "fr": "Mezzouna"
+          }
+        },
+        {
+          "id": "regueb",
+          "name": {
+            "fr": "Regueb"
+          }
+        },
+        {
+          "id": "ouled-haffouz",
+          "name": {
+            "fr": "Ouled Haffouz"
+          }
+        },
+        {
+          "id": "souk-jedid",
+          "name": {
+            "fr": "Souk Jedid"
+          }
+        }
+      ]
+    },
+    {
+      "id": "siliana",
+      "name": {
+        "fr": "Siliana"
+      },
+      "delegations": [
+        {
+          "id": "siliana-nord",
+          "name": {
+            "fr": "Siliana Nord"
+          }
+        },
+        {
+          "id": "siliana-sud",
+          "name": {
+            "fr": "Siliana Sud"
+          }
+        },
+        {
+          "id": "bou-arada",
+          "name": {
+            "fr": "Bou Arada"
+          }
+        },
+        {
+          "id": "gaafour",
+          "name": {
+            "fr": "Gaafour"
+          }
+        },
+        {
+          "id": "el-krib",
+          "name": {
+            "fr": "El Krib"
+          }
+        },
+        {
+          "id": "bourouis",
+          "name": {
+            "fr": "Bourouis"
+          }
+        },
+        {
+          "id": "makthar",
+          "name": {
+            "fr": "Makthar"
+          }
+        },
+        {
+          "id": "er-rouhia",
+          "name": {
+            "fr": "Er-Rouhia"
+          }
+        },
+        {
+          "id": "kesra",
+          "name": {
+            "fr": "Kesra"
+          }
+        },
+        {
+          "id": "bargou",
+          "name": {
+            "fr": "Bargou"
+          }
+        },
+        {
+          "id": "el-aroussa",
+          "name": {
+            "fr": "El Aroussa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sousse",
+      "name": {
+        "fr": "Sousse"
+      },
+      "delegations": [
+        {
+          "id": "sousse-medina",
+          "name": {
+            "fr": "Sousse Médina"
+          }
+        },
+        {
+          "id": "sousse-riadh",
+          "name": {
+            "fr": "Sousse Riadh"
+          }
+        },
+        {
+          "id": "sousse-jawhara",
+          "name": {
+            "fr": "Sousse Jawhara"
+          }
+        },
+        {
+          "id": "sousse-sidi-abdelhamid",
+          "name": {
+            "fr": "Sousse Sidi Abdelhamid"
+          }
+        },
+        {
+          "id": "hammam-sousse",
+          "name": {
+            "fr": "Hammam Sousse"
+          }
+        },
+        {
+          "id": "akouda",
+          "name": {
+            "fr": "Akouda"
+          }
+        },
+        {
+          "id": "kalaa-kebira",
+          "name": {
+            "fr": "Kalâa Kebira"
+          }
+        },
+        {
+          "id": "sidi-bou-ali",
+          "name": {
+            "fr": "Sidi Bou Ali"
+          }
+        },
+        {
+          "id": "hergla",
+          "name": {
+            "fr": "Hergla"
+          }
+        },
+        {
+          "id": "enfidha",
+          "name": {
+            "fr": "Enfidha"
+          }
+        },
+        {
+          "id": "bouficha",
+          "name": {
+            "fr": "Bouficha"
+          }
+        },
+        {
+          "id": "kondar",
+          "name": {
+            "fr": "Kondar"
+          }
+        },
+        {
+          "id": "sidi-elheni",
+          "name": {
+            "fr": "Sidi El Heni"
+          }
+        },
+        {
+          "id": "msaken",
+          "name": {
+            "fr": "M'saken"
+          }
+        },
+        {
+          "id": "kalaa-sghira",
+          "name": {
+            "fr": "Kalâa Sghira"
+          }
+        },
+        {
+          "id": "zaouiet-sousse",
+          "name": {
+            "fr": "Zaouiet Sousse"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tataouine",
+      "name": {
+        "fr": "Tataouine"
+      },
+      "delegations": [
+        {
+          "id": "tataouine-nord",
+          "name": {
+            "fr": "Tataouine Nord"
+          }
+        },
+        {
+          "id": "tataouine-sud",
+          "name": {
+            "fr": "Tataouine Sud"
+          }
+        },
+        {
+          "id": "bir-lahmar",
+          "name": {
+            "fr": "Bir Lahmar"
+          }
+        },
+        {
+          "id": "smar",
+          "name": {
+            "fr": "Smar"
+          }
+        },
+        {
+          "id": "ghomrassen",
+          "name": {
+            "fr": "Ghomrassen"
+          }
+        },
+        {
+          "id": "dhehiba",
+          "name": {
+            "fr": "Dhehiba"
+          }
+        },
+        {
+          "id": "remada",
+          "name": {
+            "fr": "Remada"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tozeur",
+      "name": {
+        "fr": "Tozeur"
+      },
+      "delegations": [
+        {
+          "id": "tozeur",
+          "name": {
+            "fr": "Tozeur"
+          }
+        },
+        {
+          "id": "degache",
+          "name": {
+            "fr": "Degache"
+          }
+        },
+        {
+          "id": "tamaghza",
+          "name": {
+            "fr": "Tamaghza"
+          }
+        },
+        {
+          "id": "nefta",
+          "name": {
+            "fr": "Nefta"
+          }
+        },
+        {
+          "id": "hazoua",
+          "name": {
+            "fr": "Hazoua"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tunis",
+      "name": {
+        "fr": "Tunis"
+      },
+      "delegations": [
+        {
+          "id": "bab-bhar",
+          "name": {
+            "fr": "Bab Bhar"
+          }
+        },
+        {
+          "id": "bab-souika",
+          "name": {
+            "fr": "Bab Souika"
+          }
+        },
+        {
+          "id": "cite-khadra",
+          "name": {
+            "fr": "Cité Khadra"
+          }
+        },
+        {
+          "id": "djebel-jelloud",
+          "name": {
+            "fr": "Djebel Jelloud"
+          }
+        },
+        {
+          "id": "el-kabaria",
+          "name": {
+            "fr": "El Kabaria"
+          }
+        },
+        {
+          "id": "el-menzah",
+          "name": {
+            "fr": "El Menzah"
+          }
+        },
+        {
+          "id": "el-omrane",
+          "name": {
+            "fr": "El Omrane"
+          }
+        },
+        {
+          "id": "el-omrane-superieur",
+          "name": {
+            "fr": "El Omrane Supérieur"
+          }
+        },
+        {
+          "id": "el-ouardia",
+          "name": {
+            "fr": "El Ouardia"
+          }
+        },
+        {
+          "id": "ettahrir",
+          "name": {
+            "fr": "Ettahrir"
+          }
+        },
+        {
+          "id": "ezzouhour",
+          "name": {
+            "fr": "Ezzouhour"
+          }
+        },
+        {
+          "id": "hrairia",
+          "name": {
+            "fr": "Hrairia"
+          }
+        },
+        {
+          "id": "medina",
+          "name": {
+            "fr": "Médina"
+          }
+        },
+        {
+          "id": "sidi-el-bechir",
+          "name": {
+            "fr": "Sidi El Béchir"
+          }
+        },
+        {
+          "id": "sidi-hassine",
+          "name": {
+            "fr": "Sidi Hassine"
+          }
+        },
+        {
+          "id": "cite-ettadhamen",
+          "name": {
+            "fr": "Cité Ettadhamen"
+          }
+        },
+        {
+          "id": "le-bardo",
+          "name": {
+            "fr": "Le Bardo"
+          }
+        },
+        {
+          "id": "la-goulette",
+          "name": {
+            "fr": "La Goulette"
+          }
+        },
+        {
+          "id": "le-kram",
+          "name": {
+            "fr": "Le Kram"
+          }
+        },
+        {
+          "id": "la-marsa",
+          "name": {
+            "fr": "La Marsa"
+          }
+        },
+        {
+          "id": "carthage",
+          "name": {
+            "fr": "Carthage"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zaghouan",
+      "name": {
+        "fr": "Zaghouan"
+      },
+      "delegations": [
+        {
+          "id": "zaghouan",
+          "name": {
+            "fr": "Zaghouan"
+          }
+        },
+        {
+          "id": "zriba",
+          "name": {
+            "fr": "Zriba"
+          }
+        },
+        {
+          "id": "bir-mcherga",
+          "name": {
+            "fr": "Bir Mcherga"
+          }
+        },
+        {
+          "id": "el-fahs",
+          "name": {
+            "fr": "El Fahs"
+          }
+        },
+        {
+          "id": "nadhour",
+          "name": {
+            "fr": "Nadhour"
+          }
+        },
+        {
+          "id": "saouaf",
+          "name": {
+            "fr": "Saouaf"
+          }
+        }
+      ]
+    }
+  ]
+} 
